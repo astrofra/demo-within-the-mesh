@@ -1,0 +1,54 @@
+<Version=1.0>
+<Material=
+	<Diffuse=
+		<X=0.588000>
+		<Y=0.588000>
+		<Z=0.588000>
+		<W=1.000000>
+	>
+	<Specular=
+		<X=0.297000>
+		<Y=0.297000>
+		<Z=0.297000>
+	>
+	<Ambient=
+		<X=0.588000>
+		<Y=0.588000>
+		<Z=0.588000>
+	>
+	<Glossiness=0.250000>
+	<AlphaThreshold=0.100000>
+	<PhysicMaterial=
+		<StaticFriction=0.750000>
+		<DynamicFriction=0.500000>
+		<Restitution=0.100000>
+	>
+	<RenderMask=
+		<Smoothing>
+		<NormalMapTangent>
+	>
+	<TextureStage=
+		<Index=0>
+		<Texture="assets/robot_protocol/diffus_protocol.png">
+		<UV=0>
+	>
+	<TextureStage=
+		<Index=1>
+		<Texture="assets/planet_envmap_1.png">
+		<UV=0>
+		<Channel="Reflection">
+		<UVSource="LSNormal">
+	>
+	<TextureStage=
+		<Index=2>
+		<Texture="assets/grey_mix_cement_normal.jpg">
+		<UV=0>
+		<Channel="Normal">
+	>
+	<TextureStage=
+		<Index=3>
+		<Texture="Libraries/Astrofra - Urban Ruins Kit/Maps/metal_specular.png">
+		<UV=0>
+		<Channel="Specular">
+	>
+>

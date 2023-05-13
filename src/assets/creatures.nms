@@ -1,0 +1,749 @@
+<Version=1.0>
+<Scene=
+	<SceneMotionContainer=
+		<SceneMotion=
+			<Name="creatures">
+			<ItemMotions=
+				<ItemMotion=
+					<UId=0>
+					<Motion=
+						<Id="creatures">
+						<UseQuaternion=True>
+						<QChannel=
+							<BinaryKeys=
+								<Count=25>
+								<Data==507:500@
+****Xçå\***ª******ªiÔÔTgXçå\***ª******ªiÕÔÔgXçå\***ª******ªi***h
+Xçå\***ª******ªiÕÔThXçå\***ª******ªihXçå\***ª******ªi**ªhXçå\
+***ª******ªi¿hXçå\***ª******ªiÕÔÔhXçå\***ª******ªi**êhXçå\***ª
+******ªiÿhXçå\***ª******ªiÕÔhXçå\***ª******ªi***iXçå\***ª****
+**ªiÕÔ4iXçå\***ª******ªi?iXçå\***ª******ªi**JiXçå\***ª******ªi
+ÕÔTiXçå\***ª******ªi_iXçå\***ª******ªi**jiXçå\***ª******ªiÕÔti
+Xçå\***ª******ªiiXçå\***ª******ªi**ŠiXçå\***ª******ªiÕÔ”iXçå\
+***ª******ªiŸiXçå\***ª******ªi**ªiXçå\***ª******ªi>
+							>
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++********+ÔÔTg****+ÕÔÔg****+***h****+ÕÔTh****+h****+**ªh****+
+¿h****+ÕÔÔh****+**êh****+ÿh****+ÕÔh****+***i****+ÕÔ4i****+
+?i****+**Ji****+ÕÔTi****+_i****+**ji****+ÕÔti****+i****+**
+Ši****+ÕÔ”i****+Ÿi****+**ªi****>
+								>
+							>
+							<Id="PositionX">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++********+ÔÔTg****+ÕÔÔg****+***h****+ÕÔTh****+h****+**ªh****+
+¿h****+ÕÔÔh****+**êh****+ÿh****+ÕÔh****+***i****+ÕÔ4i****+
+?i****+**Ji****+ÕÔTi****+_i****+**ji****+ÕÔti****+i****+**
+Ši****+ÕÔ”i****+Ÿi****+**ªi****>
+								>
+							>
+							<Id="PositionY">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++********+ÔÔTg****+ÕÔÔg****+***h****+ÕÔTh****+h****+**ªh****+
+¿h****+ÕÔÔh****+**êh****+ÿh****+ÕÔh****+***i****+ÕÔ4i****+
+?i****+**Ji****+ÕÔTi****+_i****+**ji****+ÕÔti****+i****+**
+Ši****+ÕÔ”i****+Ÿi****+**ªi****>
+								>
+							>
+							<Id="PositionZ">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++******ªi+ÔÔTg**ªi+ÕÔÔg**ªi+***h**ªi+ÕÔTh**ªi+h**ªi+**ªh**ªi+
+¿h**ªi+ÕÔÔh**ªi+**êh**ªi+ÿh**ªi+ÕÔh**ªi+***i**ªi+ÕÔ4i**ªi+
+?i**ªi+**Ji**ªi+ÕÔTi**ªi+_i**ªi+**ji**ªi+ÕÔti**ªi+i**ªi+**
+Ši**ªi+ÕÔ”i**ªi+Ÿi**ªi+**ªi**ªi>
+								>
+							>
+							<Id="ScaleX">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++******ªi+ÔÔTg**ªi+ÕÔÔg**ªi+***h**ªi+ÕÔTh**ªi+h**ªi+**ªh**ªi+
+¿h**ªi+ÕÔÔh**ªi+**êh**ªi+ÿh**ªi+ÕÔh**ªi+***i**ªi+ÕÔ4i**ªi+
+?i**ªi+**Ji**ªi+ÕÔTi**ªi+_i**ªi+**ji**ªi+ÕÔti**ªi+i**ªi+**
+Ši**ªi+ÕÔ”i**ªi+Ÿi**ªi+**ªi**ªi>
+								>
+							>
+							<Id="ScaleY">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++******ªi+ÔÔTg**ªi+ÕÔÔg**ªi+***h**ªi+ÕÔTh**ªi+h**ªi+**ªh**ªi+
+¿h**ªi+ÕÔÔh**ªi+**êh**ªi+ÿh**ªi+ÕÔh**ªi+***i**ªi+ÕÔ4i**ªi+
+?i**ªi+**Ji**ªi+ÕÔTi**ªi+_i**ªi+**ji**ªi+ÕÔti**ªi+i**ªi+**
+Ši**ªi+ÕÔ”i**ªi+Ÿi**ªi+**ªi**ªi>
+								>
+							>
+							<Id="ScaleZ">
+						>
+					>
+				>
+				<ItemMotion=
+					<UId=1>
+					<Motion=
+						<Id="creatures">
+						<UseQuaternion=True>
+						<QChannel=
+							<BinaryKeys=
+								<Count=25>
+								<Data==507:500@
+****Xçå\***ª******ªiÔÔTgXçå\***ª******ªiÕÔÔgXçå\***ª******ªi***h
+Xçå\***ª******ªiÕÔThXçå\***ª******ªihXçå\***ª******ªi**ªhXçå\
+***ª******ªi¿hXçå\***ª******ªiÕÔÔhXçå\***ª******ªi**êhXçå\***ª
+******ªiÿhXçå\***ª******ªiÕÔhXçå\***ª******ªi***iXçå\***ª****
+**ªiÕÔ4iXçå\***ª******ªi?iXçå\***ª******ªi**JiXçå\***ª******ªi
+ÕÔTiXçå\***ª******ªi_iXçå\***ª******ªi**jiXçå\***ª******ªiÕÔti
+Xçå\***ª******ªiiXçå\***ª******ªi**ŠiXçå\***ª******ªiÕÔ”iXçå\
+***ª******ªiŸiXçå\***ª******ªi**ªiXçå\***ª******ªi>
+							>
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++****ã‹}^+ÔÔTgã‹}^+ÕÔÔgã‹}^+***hã‹}^+ÕÔThã‹}^+hã‹}^+**ªhã‹}^+
+¿hã‹}^+ÕÔÔhã‹}^+**êhã‹}^+ÿhã‹}^+ÕÔhã‹}^+***iã‹}^+ÕÔ4iã‹}^+
+?iã‹}^+**Jiã‹}^+ÕÔTiã‹}^+_iã‹}^+**jiã‹}^+ÕÔtiã‹}^+iã‹}^+**
+Šiã‹}^+ÕÔ”iã‹}^+Ÿiã‹}^+**ªiã‹}^>
+								>
+							>
+							<Id="PositionX">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++********+ÔÔTg****+ÕÔÔg****+***h****+ÕÔTh****+h****+**ªh****+
+¿h****+ÕÔÔh****+**êh****+ÿh****+ÕÔh****+***i****+ÕÔ4i****+
+?i****+**Ji****+ÕÔTi****+_i****+**ji****+ÕÔti****+i****+**
+Ši****+ÕÔ”i****+Ÿi****+**ªi****>
+								>
+							>
+							<Id="PositionY">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++****ÉÙé+ÔÔTgÉÙé+ÕÔÔgÉÙé+***hÉÙé+ÕÔThÉÙé+hÉÙé+**ªhÉÙé+
+¿hÉÙé+ÕÔÔhÉÙé+**êhÉÙé+ÿhÉÙé+ÕÔhÉÙé+***iÉÙé+ÕÔ4iÉÙé+
+?iÉÙé+**JiÉÙé+ÕÔTiÉÙé+_iÉÙé+**jiÉÙé+ÕÔtiÉÙé+iÉÙé+**
+ŠiÉÙé+ÕÔ”iÉÙé+ŸiÉÙé+**ªiÉÙé>
+								>
+							>
+							<Id="PositionZ">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++******ªi+ÔÔTg**ªi+ÕÔÔg**ªi+***h**ªi+ÕÔTh**ªi+h**ªi+**ªh**ªi+
+¿h**ªi+ÕÔÔh**ªi+**êh**ªi+ÿh**ªi+ÕÔh**ªi+***i**ªi+ÕÔ4i**ªi+
+?i**ªi+**Ji**ªi+ÕÔTi**ªi+_i**ªi+**ji**ªi+ÕÔti**ªi+i**ªi+**
+Ši**ªi+ÕÔ”i**ªi+Ÿi**ªi+**ªi**ªi>
+								>
+							>
+							<Id="ScaleX">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++******ªi+ÔÔTg**ªi+ÕÔÔg**ªi+***h**ªi+ÕÔTh**ªi+h**ªi+**ªh**ªi+
+¿h**ªi+ÕÔÔh**ªi+**êh**ªi+ÿh**ªi+ÕÔh**ªi+***i**ªi+ÕÔ4i**ªi+
+?i**ªi+**Ji**ªi+ÕÔTi**ªi+_i**ªi+**ji**ªi+ÕÔti**ªi+i**ªi+**
+Ši**ªi+ÕÔ”i**ªi+Ÿi**ªi+**ªi**ªi>
+								>
+							>
+							<Id="ScaleY">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++******ªi+ÔÔTg**ªi+ÕÔÔg**ªi+***h**ªi+ÕÔTh**ªi+h**ªi+**ªh**ªi+
+¿h**ªi+ÕÔÔh**ªi+**êh**ªi+ÿh**ªi+ÕÔh**ªi+***i**ªi+ÕÔ4i**ªi+
+?i**ªi+**Ji**ªi+ÕÔTi**ªi+_i**ªi+**ji**ªi+ÕÔti**ªi+i**ªi+**
+Ši**ªi+ÕÔ”i**ªi+Ÿi**ªi+**ªi**ªi>
+								>
+							>
+							<Id="ScaleZ">
+						>
+					>
+				>
+				<ItemMotion=
+					<UId=2>
+					<Motion=
+						<Id="creatures">
+						<UseQuaternion=True>
+						<QChannel=
+							<BinaryKeys=
+								<Count=25>
+								<Data==507:500@
+****Xçå\***ª******ªiÔÔTgXçå\***ª******ªiÕÔÔgXçå\***ª******ªi***h
+Xçå\***ª******ªiÕÔThXçå\***ª******ªihXçå\***ª******ªi**ªhXçå\
+***ª******ªi¿hXçå\***ª******ªiÕÔÔhXçå\***ª******ªi**êhXçå\***ª
+******ªiÿhXçå\***ª******ªiÕÔhXçå\***ª******ªi***iXçå\***ª****
+**ªiÕÔ4iXçå\***ª******ªi?iXçå\***ª******ªi**JiXçå\***ª******ªi
+ÕÔTiXçå\***ª******ªi_iXçå\***ª******ªi**jiXçå\***ª******ªiÕÔti
+Xçå\***ª******ªiiXçå\***ª******ªi**ŠiXçå\***ª******ªiÕÔ”iXçå\
+***ª******ªiŸiXçå\***ª******ªi**ªiXçå\***ª******ªi>
+							>
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++****ƒ^ìå+ÔÔTgƒ^ìå+ÕÔÔgƒ^ìå+***hƒ^ìå+ÕÔThƒ^ìå+hƒ^ìå+**ªhƒ^ìå+
+¿hƒ^ìå+ÕÔÔhƒ^ìå+**êhƒ^ìå+ÿhƒ^ìå+ÕÔhƒ^ìå+***iƒ^ìå+ÕÔ4iƒ^ìå+
+?iƒ^ìå+**Jiƒ^ìå+ÕÔTiƒ^ìå+_iƒ^ìå+**jiƒ^ìå+ÕÔtiƒ^ìå+iƒ^ìå+**
+Šiƒ^ìå+ÕÔ”iƒ^ìå+Ÿiƒ^ìå+**ªiƒ^ìå>
+								>
+							>
+							<Id="PositionX">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++*****¨ºç+ÔÔTg*¨ºç+ÕÔÔg*¨ºç+***h*¨ºç+ÕÔTh*¨ºç+h*¨ºç+**ªh*¨ºç+
+¿h*¨ºç+ÕÔÔh*¨ºç+**êh*¨ºç+ÿh*¨ºç+ÕÔh*¨ºç+***i*¨ºç+ÕÔ4i*¨ºç+
+?i*¨ºç+**Ji*¨ºç+ÕÔTi*¨ºç+_i*¨ºç+**ji*¨ºç+ÕÔti*¨ºç+i*¨ºç+**
+Ši*¨ºç+ÕÔ”i*¨ºç+Ÿi*¨ºç+**ªi*¨ºç>
+								>
+							>
+							<Id="PositionY">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++****¤ó´ê+ÔÔTg¤ó´ê+ÕÔÔg¤ó´ê+***h¤ó´ê+ÕÔTh¤ó´ê+h¤ó´ê+**ªh¤ó´ê+
+¿h¤ó´ê+ÕÔÔh¤ó´ê+**êh¤ó´ê+ÿh¤ó´ê+ÕÔh¤ó´ê+***i¤ó´ê+ÕÔ4i¤ó´ê+
+?i¤ó´ê+**Ji¤ó´ê+ÕÔTi¤ó´ê+_i¤ó´ê+**ji¤ó´ê+ÕÔti¤ó´ê+i¤ó´ê+**
+Ši¤ó´ê+ÕÔ”i¤ó´ê+Ÿi¤ó´ê+**ªi¤ó´ê>
+								>
+							>
+							<Id="PositionZ">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++******ªi+ÔÔTg**ªi+ÕÔÔg**ªi+***h**ªi+ÕÔTh**ªi+h**ªi+**ªh**ªi+
+¿h**ªi+ÕÔÔh**ªi+**êh**ªi+ÿh**ªi+ÕÔh**ªi+***i**ªi+ÕÔ4i**ªi+
+?i**ªi+**Ji**ªi+ÕÔTi**ªi+_i**ªi+**ji**ªi+ÕÔti**ªi+i**ªi+**
+Ši**ªi+ÕÔ”i**ªi+Ÿi**ªi+**ªi**ªi>
+								>
+							>
+							<Id="ScaleX">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++******ªi+ÔÔTg**ªi+ÕÔÔg**ªi+***h**ªi+ÕÔTh**ªi+h**ªi+**ªh**ªi+
+¿h**ªi+ÕÔÔh**ªi+**êh**ªi+ÿh**ªi+ÕÔh**ªi+***i**ªi+ÕÔ4i**ªi+
+?i**ªi+**Ji**ªi+ÕÔTi**ªi+_i**ªi+**ji**ªi+ÕÔti**ªi+i**ªi+**
+Ši**ªi+ÕÔ”i**ªi+Ÿi**ªi+**ªi**ªi>
+								>
+							>
+							<Id="ScaleY">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++******ªi+ÔÔTg**ªi+ÕÔÔg**ªi+***h**ªi+ÕÔTh**ªi+h**ªi+**ªh**ªi+
+¿h**ªi+ÕÔÔh**ªi+**êh**ªi+ÿh**ªi+ÕÔh**ªi+***i**ªi+ÕÔ4i**ªi+
+?i**ªi+**Ji**ªi+ÕÔTi**ªi+_i**ªi+**ji**ªi+ÕÔti**ªi+i**ªi+**
+Ši**ªi+ÕÔ”i**ªi+Ÿi**ªi+**ªi**ªi>
+								>
+							>
+							<Id="ScaleZ">
+						>
+					>
+				>
+				<ItemMotion=
+					<UId=3>
+					<Motion=
+						<Id="creatures">
+						<UseQuaternion=True>
+						<QChannel=
+							<BinaryKeys=
+								<Count=25>
+								<Data==507:500@
+****Xçå\***ª******ªiÔÔTgXçå\***ª******ªiÕÔÔgXçå\***ª******ªi***h
+Xçå\***ª******ªiÕÔThXçå\***ª******ªihXçå\***ª******ªi**ªhXçå\
+***ª******ªi¿hXçå\***ª******ªiÕÔÔhXçå\***ª******ªi**êhXçå\***ª
+******ªiÿhXçå\***ª******ªiÕÔhXçå\***ª******ªi***iXçå\***ª****
+**ªiÕÔ4iXçå\***ª******ªi?iXçå\***ª******ªi**JiXçå\***ª******ªi
+ÕÔTiXçå\***ª******ªi_iXçå\***ª******ªi**jiXçå\***ª******ªiÕÔti
+Xçå\***ª******ªiiXçå\***ª******ªi**ŠiXçå\***ª******ªiÕÔ”iXçå\
+***ª******ªiŸiXçå\***ª******ªi**ªiXçå\***ª******ªi>
+							>
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++****ËÁ“ë+ÔÔTgËÁ“ë+ÕÔÔgËÁ“ë+***hËÁ“ë+ÕÔThËÁ“ë+hËÁ“ë+**ªhËÁ“ë+
+¿hËÁ“ë+ÕÔÔhËÁ“ë+**êhËÁ“ë+ÿhËÁ“ë+ÕÔhËÁ“ë+***iËÁ“ë+ÕÔ4iËÁ“ë+
+?iËÁ“ë+**JiËÁ“ë+ÕÔTiËÁ“ë+_iËÁ“ë+**jiËÁ“ë+ÕÔtiËÁ“ë+iËÁ“ë+**
+ŠiËÁ“ë+ÕÔ”iËÁ“ë+ŸiËÁ“ë+**ªiËÁ“ë>
+								>
+							>
+							<Id="PositionX">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++********+ÔÔTg****+ÕÔÔg****+***h****+ÕÔTh****+h****+**ªh****+
+¿h****+ÕÔÔh****+**êh****+ÿh****+ÕÔh****+***i****+ÕÔ4i****+
+?i****+**Ji****+ÕÔTi****+_i****+**ji****+ÕÔti****+i****+**
+Ši****+ÕÔ”i****+Ÿi****+**ªi****>
+								>
+							>
+							<Id="PositionY">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++****Æ^¢k+ÔÔTgÆ^¢k+ÕÔÔgÆ^¢k+***hÆ^¢k+ÕÔThÆ^¢k+hÆ^¢k+**ªhÆ^¢k+
+¿hÆ^¢k+ÕÔÔhÆ^¢k+**êhÆ^¢k+ÿhÆ^¢k+ÕÔhÆ^¢k+***iÆ^¢k+ÕÔ4iÆ^¢k+
+?iÆ^¢k+**JiÆ^¢k+ÕÔTiÆ^¢k+_iÆ^¢k+**jiÆ^¢k+ÕÔtiÆ^¢k+iÆ^¢k+**
+ŠiÆ^¢k+ÕÔ”iÆ^¢k+ŸiÆ^¢k+**ªiÆ^¢k>
+								>
+							>
+							<Id="PositionZ">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++******ªi+ÔÔTg**ªi+ÕÔÔg**ªi+***h**ªi+ÕÔTh**ªi+h**ªi+**ªh**ªi+
+¿h**ªi+ÕÔÔh**ªi+**êh**ªi+ÿh**ªi+ÕÔh**ªi+***i**ªi+ÕÔ4i**ªi+
+?i**ªi+**Ji**ªi+ÕÔTi**ªi+_i**ªi+**ji**ªi+ÕÔti**ªi+i**ªi+**
+Ši**ªi+ÕÔ”i**ªi+Ÿi**ªi+**ªi**ªi>
+								>
+							>
+							<Id="ScaleX">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++******ªi+ÔÔTg**ªi+ÕÔÔg**ªi+***h**ªi+ÕÔTh**ªi+h**ªi+**ªh**ªi+
+¿h**ªi+ÕÔÔh**ªi+**êh**ªi+ÿh**ªi+ÕÔh**ªi+***i**ªi+ÕÔ4i**ªi+
+?i**ªi+**Ji**ªi+ÕÔTi**ªi+_i**ªi+**ji**ªi+ÕÔti**ªi+i**ªi+**
+Ši**ªi+ÕÔ”i**ªi+Ÿi**ªi+**ªi**ªi>
+								>
+							>
+							<Id="ScaleY">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++******ªi+ÔÔTg**ªi+ÕÔÔg**ªi+***h**ªi+ÕÔTh**ªi+h**ªi+**ªh**ªi+
+¿h**ªi+ÕÔÔh**ªi+**êh**ªi+ÿh**ªi+ÕÔh**ªi+***i**ªi+ÕÔ4i**ªi+
+?i**ªi+**Ji**ªi+ÕÔTi**ªi+_i**ªi+**ji**ªi+ÕÔti**ªi+i**ªi+**
+Ši**ªi+ÕÔ”i**ªi+Ÿi**ªi+**ªi**ªi>
+								>
+							>
+							<Id="ScaleZ">
+						>
+					>
+				>
+			>
+		>
+	>
+	<Items=
+		<MObject=
+			<MItem=
+				<Id="strangelet_creature_01_head">
+				<UId=0>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/strangelet_creature_01_head.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="strangelet_creature_01_body">
+				<UId=1>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=-1.370289>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/strangelet_creature_01_body.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="strangelet_creature_01_flagellum">
+				<UId=2>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=-0.005927>
+						<Y=-0.070553>
+						<Z=-3.229595>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/strangelet_creature_01_flagellum.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="creature_ringlet">
+				<UId=3>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=0.115640>
+						<Y=-0.000002>
+						<Z=7.099851>
+					>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/creature_ringlet.nmg">
+				<CacheGeometry=True>
+			>
+		>
+	>
+	<Links=
+		<Link=
+			<Item=1>
+			<Link=0>
+		>
+		<Link=
+			<Item=2>
+			<Link=1>
+		>
+	>
+	<Constraints>
+	<Globals=
+		<BackgroundColor=
+			<X=0.000000>
+			<Y=0.000000>
+			<Z=0.000000>
+		>
+		<AmbientColor=
+			<X=0.400000>
+			<Y=0.400000>
+			<Z=0.400000>
+		>
+		<TimeOfDay=0.500000>
+		<AmbientIntensity=1.000000>
+		<TargetExposure=0.250000>
+		<FogNear=0.000000>
+		<FogFar=0.000000>
+		<FogColor=
+			<X=1.000000>
+			<Y=1.000000>
+			<Z=1.000000>
+		>
+	>
+	<Physics=
+		<Frequency=59.999996>
+	>
+	<ViewMatrix=
+		<R0=
+			<X=0.473327>
+			<Y=-0.000000>
+			<Z=0.880887>
+			<W=0.000000>
+		>
+		<R1=
+			<X=-0.674066>
+			<Y=0.643777>
+			<Z=0.362196>
+			<W=0.000000>
+		>
+		<R2=
+			<X=-0.567095>
+			<Y=-0.765213>
+			<Z=0.304717>
+			<W=0.000000>
+		>
+		<R3=
+			<X=13.228285>
+			<Y=17.033403>
+			<Z=-9.456837>
+			<W=1.000000>
+		>
+	>
+>
+<Editor=
+	<View=
+		<Layout="Single">
+		<Viewport=
+			<Index=0>
+			<CameraUid=-16>
+			<Matrix=
+				<R0=
+					<X=0.473327>
+					<Y=-0.000000>
+					<Z=0.880887>
+					<W=0.000000>
+				>
+				<R1=
+					<X=-0.674066>
+					<Y=0.643777>
+					<Z=0.362196>
+					<W=0.000000>
+				>
+				<R2=
+					<X=-0.567095>
+					<Y=-0.765213>
+					<Z=0.304717>
+					<W=0.000000>
+				>
+				<R3=
+					<X=13.228285>
+					<Y=17.033403>
+					<Z=-9.456837>
+					<W=1.000000>
+				>
+			>
+		>
+		<Viewport=
+			<Index=1>
+			<CameraUid=-10>
+			<Matrix=
+				<R0=
+					<X=1.000000>
+					<Y=0.000000>
+					<Z=0.000000>
+					<W=0.000000>
+				>
+				<R1=
+					<X=0.000000>
+					<Y=1.000000>
+					<Z=0.000000>
+					<W=0.000000>
+				>
+				<R2=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+					<W=0.000000>
+				>
+				<R3=
+					<X=0.000000>
+					<Y=10.000000>
+					<Z=0.000000>
+					<W=1.000000>
+				>
+			>
+		>
+		<Viewport=
+			<Index=2>
+			<CameraUid=-11>
+			<Matrix=
+				<R0=
+					<X=1.000000>
+					<Y=0.000000>
+					<Z=0.000000>
+					<W=0.000000>
+				>
+				<R1=
+					<X=0.000000>
+					<Y=1.000000>
+					<Z=0.000000>
+					<W=0.000000>
+				>
+				<R2=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+					<W=0.000000>
+				>
+				<R3=
+					<X=0.000000>
+					<Y=-10.000000>
+					<Z=0.000000>
+					<W=1.000000>
+				>
+			>
+		>
+		<Viewport=
+			<Index=3>
+			<CameraUid=-12>
+			<Matrix=
+				<R0=
+					<X=1.000000>
+					<Y=0.000000>
+					<Z=0.000000>
+					<W=0.000000>
+				>
+				<R1=
+					<X=0.000000>
+					<Y=1.000000>
+					<Z=0.000000>
+					<W=0.000000>
+				>
+				<R2=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+					<W=0.000000>
+				>
+				<R3=
+					<X=-10.000000>
+					<Y=0.000000>
+					<Z=0.000000>
+					<W=1.000000>
+				>
+			>
+		>
+	>
+>

@@ -1,0 +1,2783 @@
+<Version=1.0>
+<Scene=
+	<SceneMotionContainer>
+	<Items=
+		<MObject=
+			<MItem=
+				<Id="robot_protocol_body">
+				<UId=0>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions=
+						<Motion=
+							<Id="Take 001">
+							<UseQuaternion=True>
+							<QChannel=
+								<BinaryKeys=
+									<Count=21>
+									<Data==426:420@
+****XöÛ**********ªiöövgXöÛ**********ªi÷öögXöÛ**********ªiÄÃCh
+XöÛ**********ªi÷övhXöÛ**********ªi**ªhXöÛ**********ªiÄÃÃhXöÛ
+**********ªi]]ÝhXöÛ**********ªi÷ööhXöÛ**********ªihXöÛ****
+******ªi***iXöÛ**********ªi÷ö6iXöÛ**********ªiÄÃCiXöÛ********
+**ªiPiXöÛ**********ªi]]]iXöÛ**********ªi**jiXöÛ**********ªi
+÷öviXöÛ**********ªiÄÃƒiXöÛ**********ªiiXöÛ**********ªi]]i
+XöÛ**********ªi**ªiXöÛ**********ªi>
+								>
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++********+**ªi****>
+									>
+								>
+								<Id="PositionX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****òƒÃi+**ªiòƒÃi>
+									>
+								>
+								<Id="PositionY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==20:18@
++****=@,f+**ªi=@,f>
+									>
+								>
+								<Id="PositionZ">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleZ">
+							>
+						>
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=0.000000>
+						<Y=0.233600>
+						<Z=0.004885>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/robot_protocol/robot_protocol_body.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="robot_protocol_bust">
+				<UId=1>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions=
+						<Motion=
+							<Id="Take 001">
+							<UseQuaternion=True>
+							<QChannel=
+								<BinaryKeys=
+									<Count=21>
+									<Data==426:420@
+*******B**********ªiöövg***B**********ªi÷öög***B**********ªiÄÃCh
+***B**********ªi÷övh***B**********ªi**ªh***B**********ªiÄÃÃh***B
+**********ªi]]Ýh***B**********ªi÷ööh***B**********ªih***B****
+******ªi***i***B**********ªi÷ö6i***B**********ªiÄÃCi***B********
+**ªiPi***B**********ªi]]]i***B**********ªi**ji***B**********ªi
+÷övi***B**********ªiÄÃƒi***B**********ªii***B**********ªi]]i
+***B**********ªi**ªi***B**********ªi>
+								>
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++********+**ªi****>
+									>
+								>
+								<Id="PositionX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****jÈ}h+**ªijÈ}h>
+									>
+								>
+								<Id="PositionY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****ãWç+**ªiãWç>
+									>
+								>
+								<Id="PositionZ">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleZ">
+							>
+						>
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=0.000000>
+						<Y=0.206658>
+						<Z=-0.042413>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/robot_protocol/robot_protocol_bust.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="robot_protocol_head">
+				<UId=2>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions=
+						<Motion=
+							<Id="Take 001">
+							<UseQuaternion=True>
+							<QChannel=
+								<BinaryKeys=
+									<Count=21>
+									<Data==426:420@
+*******B**********ªiöövg***B**********ªi÷öög***B**********ªiÄÃCh
+***B**********ªi÷övh***B**********ªi**ªh***B**********ªiÄÃÃh***B
+**********ªi]]Ýh***B**********ªi÷ööh***B**********ªih***B****
+******ªi***i***B**********ªi÷ö6i***B**********ªiÄÃCi***B********
+**ªiPi***B**********ªi]]]i***B**********ªi**ji***B**********ªi
+÷övi***B**********ªiÄÃƒi***B**********ªii***B**********ªi]]i
+***B**********ªi**ªi***B**********ªi>
+								>
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++*****÷b+**ªi*÷b>
+									>
+								>
+								<Id="PositionX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****ú$¶h+**ªiú$¶h>
+									>
+								>
+								<Id="PositionY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****èf+**ªièf>
+									>
+								>
+								<Id="PositionZ">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleZ">
+							>
+						>
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=0.000098>
+						<Y=0.275351>
+						<Z=0.023311>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/robot_protocol/robot_protocol_head.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="robot_protocol_R_shoulder">
+				<UId=3>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions=
+						<Motion=
+							<Id="Take 001">
+							<UseQuaternion=True>
+							<QChannel=
+								<BinaryKeys=
+									<Count=21>
+									<Data==426:420@
+*******B**********ªiöövg***B**********ªi÷öög***B**********ªiÄÃCh
+***B**********ªi÷övh***B**********ªi**ªh***B**********ªiÄÃÃh***B
+**********ªi]]Ýh***B**********ªi÷ööh***B**********ªih***B****
+******ªi***i***B**********ªi÷ö6i***B**********ªiÄÃCi***B********
+**ªiPi***B**********ªi]]]i***B**********ªi**ji***B**********ªi
+÷övi***B**********ªiÄÃƒi***B**********ªii***B**********ªi]]i
+***B**********ªi**ªi***B**********ªi>
+								>
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****Fph+**ªiFph>
+									>
+								>
+								<Id="PositionX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****ˆ¡h+**ªiˆ¡h>
+									>
+								>
+								<Id="PositionY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****Nù®f+**ªiNù®f>
+									>
+								>
+								<Id="PositionZ">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleZ">
+							>
+						>
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=0.194207>
+						<Y=0.241573>
+						<Z=0.016212>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/robot_protocol/robot_protocol_R_shoulder.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="robot_protocol_R_arm">
+				<UId=4>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions=
+						<Motion=
+							<Id="Take 001">
+							<UseQuaternion=True>
+							<QChannel=
+								<BinaryKeys=
+									<Count=21>
+									<Data==426:420@
+*******B**********ªiöövg***B**********ªi÷öög***B**********ªiÄÃCh
+***B**********ªi÷övh***B**********ªi**ªh***B**********ªiÄÃÃh***B
+**********ªi]]Ýh***B**********ªi÷ööh***B**********ªih***B****
+******ªi***i***B**********ªi÷ö6i***B**********ªiÄÃCi***B********
+**ªiPi***B**********ªi]]]i***B**********ªi**ji***B**********ªi
+÷övi***B**********ªiÄÃƒi***B**********ªii***B**********ªi]]i
+***B**********ªi**ªi***B**********ªi>
+								>
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++*****Ø6ä+**ªi*Ø6ä>
+									>
+								>
+								<Id="PositionX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++*****zvä+**ªi*zvä>
+									>
+								>
+								<Id="PositionY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****ªóîc+**ªiªóîc>
+									>
+								>
+								<Id="PositionZ">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleZ">
+							>
+						>
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=-0.000537>
+						<Y=-0.000779>
+						<Z=0.000375>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/robot_protocol/robot_protocol_R_arm.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="robot_protocol_R_elbow">
+				<UId=5>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions=
+						<Motion=
+							<Id="Take 001">
+							<UseQuaternion=True>
+							<QChannel=
+								<BinaryKeys=
+									<Count=21>
+									<Data==426:420@
+*******B**********ªiöövg***B**********ªi÷öög***B**********ªiÄÃCh
+***B**********ªi÷övh***B**********ªi**ªh***B**********ªiÄÃÃh***B
+**********ªi]]Ýh***B**********ªi÷ööh***B**********ªih***B****
+******ªi***i***B**********ªi÷ö6i***B**********ªiÄÃCi***B********
+**ªiPi***B**********ªi]]]i***B**********ªi**ji***B**********ªi
+÷övi***B**********ªiÄÃƒi***B**********ªii***B**********ªi]]i
+***B**********ªi**ªi***B**********ªi>
+								>
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==20:18@
++****Ÿk=@h+**ªiŸk=@h>
+									>
+								>
+								<Id="PositionX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++*****Úød+**ªi*Úød>
+									>
+								>
+								<Id="PositionY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****©óîã+**ªi©óîã>
+									>
+								>
+								<Id="PositionZ">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleZ">
+							>
+						>
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=0.418468>
+						<Y=0.001577>
+						<Z=-0.000375>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/robot_protocol/robot_protocol_R_elbow.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="robot_protocol_R_forearm">
+				<UId=6>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions=
+						<Motion=
+							<Id="Take 001">
+							<UseQuaternion=True>
+							<QChannel=
+								<BinaryKeys=
+									<Count=21>
+									<Data==426:420@
+*******B**********ªiöövg***B**********ªi÷öög***B**********ªiÄÃCh
+***B**********ªi÷övh***B**********ªi**ªh***B**********ªiÄÃÃh***B
+**********ªi]]Ýh***B**********ªi÷ööh***B**********ªih***B****
+******ªi***i***B**********ªi÷ö6i***B**********ªiÄÃCi***B********
+**ªiPi***B**********ªi]]]i***B**********ªi**ji***B**********ªi
+÷övi***B**********ªiÄÃƒi***B**********ªii***B**********ªi]]i
+***B**********ªi**ªi***B**********ªi>
+								>
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++*****úä+**ªi*úä>
+									>
+								>
+								<Id="PositionX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++*****ªã+**ªi*ªã>
+									>
+								>
+								<Id="PositionY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****Õc8å+**ªiÕc8å>
+									>
+								>
+								<Id="PositionZ">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleZ">
+							>
+						>
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=-0.000930>
+						<Y=-0.000463>
+						<Z=-0.002170>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/robot_protocol/robot_protocol_R_forearm.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="robot_protocol_R_hand">
+				<UId=7>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions=
+						<Motion=
+							<Id="Take 001">
+							<UseQuaternion=True>
+							<QChannel=
+								<BinaryKeys=
+									<Count=21>
+									<Data==426:420@
+*******B**********ªiöövg***B**********ªi÷öög***B**********ªiÄÃCh
+***B**********ªi÷övh***B**********ªi**ªh***B**********ªiÄÃÃh***B
+**********ªi]]Ýh***B**********ªi÷ööh***B**********ªih***B****
+******ªi***i***B**********ªi÷ö6i***B**********ªiÄÃCi***B********
+**ªiPi***B**********ªi]]]i***B**********ªi**ji***B**********ªi
+÷övi***B**********ªiÄÃƒi***B**********ªii***B**********ªi]]i
+***B**********ªi**ªi***B**********ªi>
+								>
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****n¹²h+**ªin¹²h>
+									>
+								>
+								<Id="PositionX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++*****â¸d+**ªi*â¸d>
+									>
+								>
+								<Id="PositionY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****6ÜWe+**ªi6ÜWe>
+									>
+								>
+								<Id="PositionZ">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleZ">
+							>
+						>
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=0.266718>
+						<Y=0.001089>
+						<Z=0.002650>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/robot_protocol/robot_protocol_R_hand.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="robot_protocol_R_finger01">
+				<UId=8>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions=
+						<Motion=
+							<Id="Take 001">
+							<UseQuaternion=True>
+							<QChannel=
+								<BinaryKeys=
+									<Count=21>
+									<Data==426:420@
+*******B**********ªiöövg***B**********ªi÷öög***B**********ªiÄÃCh
+***B**********ªi÷övh***B**********ªi**ªh***B**********ªiÄÃÃh***B
+**********ªi]]Ýh***B**********ªi÷ööh***B**********ªih***B****
+******ªi***i***B**********ªi÷ö6i***B**********ªiÄÃCi***B********
+**ªiPi***B**********ªi]]]i***B**********ªi**ji***B**********ªi
+÷övi***B**********ªiÄÃƒi***B**********ªii***B**********ªi]]i
+***B**********ªi**ªi***B**********ªi>
+								>
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****²'¹h+**ªi²'¹h>
+									>
+								>
+								<Id="PositionX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++*****²ä+**ªi*²ä>
+									>
+								>
+								<Id="PositionY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****æã­e+**ªiæã­e>
+									>
+								>
+								<Id="PositionZ">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleZ">
+							>
+						>
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=0.281231>
+						<Y=-0.001843>
+						<Z=0.004020>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/robot_protocol/robot_protocol_R_finger01.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="robot_protocol_R_finger0">
+				<UId=9>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions=
+						<Motion=
+							<Id="Take 001">
+							<UseQuaternion=True>
+							<QChannel=
+								<BinaryKeys=
+									<Count=21>
+									<Data==426:420@
+*******B**********ªiöövg***B**********ªi÷öög***B**********ªiÄÃCh
+***B**********ªi÷övh***B**********ªi**ªh***B**********ªiÄÃÃh***B
+**********ªi]]Ýh***B**********ªi÷ööh***B**********ªih***B****
+******ªi***i***B**********ªi÷ö6i***B**********ªiÄÃCi***B********
+**ªiPi***B**********ªi]]]i***B**********ªi**ji***B**********ªi
+÷övi***B**********ªiÄÃƒi***B**********ªii***B**********ªi]]i
+***B**********ªi**ªi***B**********ªi>
+								>
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****r|›h+**ªir|›h>
+									>
+								>
+								<Id="PositionX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++*****ôÃå+**ªi*ôÃå>
+									>
+								>
+								<Id="PositionY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****‚Îte+**ªi‚Îte>
+									>
+								>
+								<Id="PositionZ">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleZ">
+							>
+						>
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=0.235665>
+						<Y=-0.004693>
+						<Z=0.003092>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/robot_protocol/robot_protocol_R_finger0.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="robot_protocol_R_inch_0">
+				<UId=10>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions=
+						<Motion=
+							<Id="Take 001">
+							<UseQuaternion=True>
+							<QChannel=
+								<BinaryKeys=
+									<Count=21>
+									<Data==426:420@
+*******B**********ªiöövg***B**********ªi÷öög***B**********ªiÄÃCh
+***B**********ªi÷övh***B**********ªi**ªh***B**********ªiÄÃÃh***B
+**********ªi]]Ýh***B**********ªi÷ööh***B**********ªih***B****
+******ªi***i***B**********ªi÷ö6i***B**********ªiÄÃCi***B********
+**ªiPi***B**********ªi]]]i***B**********ªi**ji***B**********ªi
+÷övi***B**********ªiÄÃƒi***B**********ªii***B**********ªi]]i
+***B**********ªi**ªi***B**********ªi>
+								>
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****z¤g+**ªiz¤g>
+									>
+								>
+								<Id="PositionX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++*****zå+**ªi*zå>
+									>
+								>
+								<Id="PositionY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****ï¹g+**ªiï¹g>
+									>
+								>
+								<Id="PositionZ">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleZ">
+							>
+						>
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=0.119862>
+						<Y=-0.003188>
+						<Z=0.070202>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/robot_protocol/robot_protocol_R_inch_0.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="robot_protocol_R_inch_01">
+				<UId=11>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions=
+						<Motion=
+							<Id="Take 001">
+							<UseQuaternion=True>
+							<QChannel=
+								<BinaryKeys=
+									<Count=21>
+									<Data==426:420@
+*******B**********ªiöövg***B**********ªi÷öög***B**********ªiÄÃCh
+***B**********ªi÷övh***B**********ªi**ªh***B**********ªiÄÃÃh***B
+**********ªi]]Ýh***B**********ªi÷ööh***B**********ªih***B****
+******ªi***i***B**********ªi÷ö6i***B**********ªiÄÃCi***B********
+**ªiPi***B**********ªi]]]i***B**********ªi**ji***B**********ªi
+÷övi***B**********ªiÄÃƒi***B**********ªii***B**********ªi]]i
+***B**********ªi**ªi***B**********ªi>
+								>
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++*****")ä+**ªi*")ä>
+									>
+								>
+								<Id="PositionX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++*****úÖd+**ªi*úÖd>
+									>
+								>
+								<Id="PositionY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****nzg+**ªinzg>
+									>
+								>
+								<Id="PositionZ">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleZ">
+							>
+						>
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=-0.001953>
+						<Y=0.001318>
+						<Z=0.050847>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/robot_protocol/robot_protocol_R_inch_01.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="robot_protocol_R_shoulder">
+				<UId=12>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions=
+						<Motion=
+							<Id="Take 001">
+							<UseQuaternion=True>
+							<QChannel=
+								<BinaryKeys=
+									<Count=21>
+									<Data==426:420@
+*******B**********ªiöövg***B**********ªi÷öög***B**********ªiÄÃCh
+***B**********ªi÷övh***B**********ªi**ªh***B**********ªiÄÃÃh***B
+**********ªi]]Ýh***B**********ªi÷ööh***B**********ªih***B****
+******ªi***i***B**********ªi÷ö6i***B**********ªiÄÃCi***B********
+**ªiPi***B**********ªi]]]i***B**********ªi**ji***B**********ªi
+÷övi***B**********ªiÄÃƒi***B**********ªii***B**********ªi]]i
+***B**********ªi**ªi***B**********ªi>
+								>
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++**** øpè+**ªi øpè>
+									>
+								>
+								<Id="PositionX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++*****‰¡h+**ªi*‰¡h>
+									>
+								>
+								<Id="PositionY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****Nù®f+**ªiNù®f>
+									>
+								>
+								<Id="PositionZ">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleZ">
+							>
+						>
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=-0.194147>
+						<Y=0.241573>
+						<Z=0.016212>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/robot_protocol/robot_protocol_R_shoulder.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="robot_protocol_L_arm">
+				<UId=13>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions=
+						<Motion=
+							<Id="Take 001">
+							<UseQuaternion=True>
+							<QChannel=
+								<BinaryKeys=
+									<Count=21>
+									<Data==426:420@
+*******B**********ªiöövg***B**********ªi÷öög***B**********ªiÄÃCh
+***B**********ªi÷övh***B**********ªi**ªh***B**********ªiÄÃÃh***B
+**********ªi]]Ýh***B**********ªi÷ööh***B**********ªih***B****
+******ªi***i***B**********ªi÷ö6i***B**********ªiÄÃCi***B********
+**ªiPi***B**********ªi]]]i***B**********ªi**ji***B**********ªi
+÷övi***B**********ªiÄÃƒi***B**********ªii***B**********ªi]]i
+***B**********ªi**ªi***B**********ªi>
+								>
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++*****%c+**ªi*%c>
+									>
+								>
+								<Id="PositionX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++*****švä+**ªi*švä>
+									>
+								>
+								<Id="PositionY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****ªóîc+**ªiªóîc>
+									>
+								>
+								<Id="PositionZ">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleZ">
+							>
+						>
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=0.000480>
+						<Y=-0.000780>
+						<Z=0.000375>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/robot_protocol/robot_protocol_L_arm.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="robot_protocol_L_elbow">
+				<UId=14>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions=
+						<Motion=
+							<Id="Take 001">
+							<UseQuaternion=True>
+							<QChannel=
+								<BinaryKeys=
+									<Count=21>
+									<Data==426:420@
+*******B**********ªiöövg***B**********ªi÷öög***B**********ªiÄÃCh
+***B**********ªi÷övh***B**********ªi**ªh***B**********ªiÄÃÃh***B
+**********ªi]]Ýh***B**********ªi÷ööh***B**********ªih***B****
+******ªi***i***B**********ªi÷ö6i***B**********ªiÄÃCi***B********
+**ªiPi***B**********ªi]]]i***B**********ªi**ji***B**********ªi
+÷övi***B**********ªiÄÃƒi***B**********ªii***B**********ªi]]i
+***B**********ªi**ªi***B**********ªi>
+								>
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****bžè+**ªibžè>
+									>
+								>
+								<Id="PositionX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++*****âød+**ªi*âød>
+									>
+								>
+								<Id="PositionY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****©óîã+**ªi©óîã>
+									>
+								>
+								<Id="PositionZ">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleZ">
+							>
+						>
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=-0.422762>
+						<Y=0.001577>
+						<Z=-0.000375>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/robot_protocol/robot_protocol_L_elbow.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="robot_protocol_L_forearm">
+				<UId=15>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions=
+						<Motion=
+							<Id="Take 001">
+							<UseQuaternion=True>
+							<QChannel=
+								<BinaryKeys=
+									<Count=21>
+									<Data==426:420@
+*******B**********ªiöövg***B**********ªi÷öög***B**********ªiÄÃCh
+***B**********ªi÷övh***B**********ªi**ªh***B**********ªiÄÃÃh***B
+**********ªi]]Ýh***B**********ªi÷ööh***B**********ªih***B****
+******ªi***i***B**********ªi÷ö6i***B**********ªiÄÃCi***B********
+**ªiPi***B**********ªi]]]i***B**********ªi**ji***B**********ªi
+÷övi***B**********ªiÄÃƒi***B**********ªii***B**********ªi]]i
+***B**********ªi**ªi***B**********ªi>
+								>
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++*****úd+**ªi*úd>
+									>
+								>
+								<Id="PositionX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++*****ªã+**ªi*ªã>
+									>
+								>
+								<Id="PositionY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****Õc8å+**ªiÕc8å>
+									>
+								>
+								<Id="PositionZ">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleZ">
+							>
+						>
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=0.000930>
+						<Y=-0.000463>
+						<Z=-0.002170>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/robot_protocol/robot_protocol_L_forearm.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="robot_protocol_L_hand">
+				<UId=16>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions=
+						<Motion=
+							<Id="Take 001">
+							<UseQuaternion=True>
+							<QChannel=
+								<BinaryKeys=
+									<Count=21>
+									<Data==426:420@
+*******B**********ªiöövg***B**********ªi÷öög***B**********ªiÄÃCh
+***B**********ªi÷övh***B**********ªi**ªh***B**********ªiÄÃÃh***B
+**********ªi]]Ýh***B**********ªi÷ööh***B**********ªih***B****
+******ªi***i***B**********ªi÷ö6i***B**********ªiÄÃCi***B********
+**ªiPi***B**********ªi]]]i***B**********ªi**ji***B**********ªi
+÷övi***B**********ªiÄÃƒi***B**********ªii***B**********ªi]]i
+***B**********ªi**ªi***B**********ªi>
+								>
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****j¹²è+**ªij¹²è>
+									>
+								>
+								<Id="PositionX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++*****â¸d+**ªi*â¸d>
+									>
+								>
+								<Id="PositionY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****6ÜWe+**ªi6ÜWe>
+									>
+								>
+								<Id="PositionZ">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleZ">
+							>
+						>
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=-0.266718>
+						<Y=0.001089>
+						<Z=0.002650>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/robot_protocol/robot_protocol_L_hand.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="robot_protocol_L_finger01">
+				<UId=17>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions=
+						<Motion=
+							<Id="Take 001">
+							<UseQuaternion=True>
+							<QChannel=
+								<BinaryKeys=
+									<Count=21>
+									<Data==426:420@
+*******B**********ªiöövg***B**********ªi÷öög***B**********ªiÄÃCh
+***B**********ªi÷övh***B**********ªi**ªh***B**********ªiÄÃÃh***B
+**********ªi]]Ýh***B**********ªi÷ööh***B**********ªih***B****
+******ªi***i***B**********ªi÷ö6i***B**********ªiÄÃCi***B********
+**ªiPi***B**********ªi]]]i***B**********ªi**ji***B**********ªi
+÷övi***B**********ªiÄÃƒi***B**********ªii***B**********ªi]]i
+***B**********ªi**ªi***B**********ªi>
+								>
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****À'¹è+**ªiÀ'¹è>
+									>
+								>
+								<Id="PositionX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++*****²ä+**ªi*²ä>
+									>
+								>
+								<Id="PositionY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****æã­e+**ªiæã­e>
+									>
+								>
+								<Id="PositionZ">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleZ">
+							>
+						>
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=-0.281232>
+						<Y=-0.001843>
+						<Z=0.004020>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/robot_protocol/robot_protocol_L_finger01.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="robot_protocol_L_finger0">
+				<UId=18>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions=
+						<Motion=
+							<Id="Take 001">
+							<UseQuaternion=True>
+							<QChannel=
+								<BinaryKeys=
+									<Count=21>
+									<Data==426:420@
+*******B**********ªiöövg***B**********ªi÷öög***B**********ªiÄÃCh
+***B**********ªi÷övh***B**********ªi**ªh***B**********ªiÄÃÃh***B
+**********ªi]]Ýh***B**********ªi÷ööh***B**********ªih***B****
+******ªi***i***B**********ªi÷ö6i***B**********ªiÄÃCi***B********
+**ªiPi***B**********ªi]]]i***B**********ªi**ji***B**********ªi
+÷övi***B**********ªiÄÃƒi***B**********ªii***B**********ªi]]i
+***B**********ªi**ªi***B**********ªi>
+								>
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****†|›è+**ªi†|›è>
+									>
+								>
+								<Id="PositionX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++*****ôÃå+**ªi*ôÃå>
+									>
+								>
+								<Id="PositionY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****‚Îte+**ªi‚Îte>
+									>
+								>
+								<Id="PositionZ">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleZ">
+							>
+						>
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=-0.235666>
+						<Y=-0.004693>
+						<Z=0.003092>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/robot_protocol/robot_protocol_L_finger0.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="robot_protocol_L_inch_0">
+				<UId=19>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions=
+						<Motion=
+							<Id="Take 001">
+							<UseQuaternion=True>
+							<QChannel=
+								<BinaryKeys=
+									<Count=21>
+									<Data==426:420@
+*******B**********ªiöövg***B**********ªi÷öög***B**********ªiÄÃCh
+***B**********ªi÷övh***B**********ªi**ªh***B**********ªiÄÃÃh***B
+**********ªi]]Ýh***B**********ªi÷ööh***B**********ªih***B****
+******ªi***i***B**********ªi÷ö6i***B**********ªiÄÃCi***B********
+**ªiPi***B**********ªi]]]i***B**********ªi**ji***B**********ªi
+÷övi***B**********ªiÄÃƒi***B**********ªii***B**********ªi]]i
+***B**********ªi**ªi***B**********ªi>
+								>
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****b¤ç+**ªib¤ç>
+									>
+								>
+								<Id="PositionX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++*****zå+**ªi*zå>
+									>
+								>
+								<Id="PositionY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****ï¹g+**ªiï¹g>
+									>
+								>
+								<Id="PositionZ">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleZ">
+							>
+						>
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=-0.119862>
+						<Y=-0.003188>
+						<Z=0.070202>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/robot_protocol/robot_protocol_L_inch_0.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="robot_protocol_L_inch_01">
+				<UId=20>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions=
+						<Motion=
+							<Id="Take 001">
+							<UseQuaternion=True>
+							<QChannel=
+								<BinaryKeys=
+									<Count=21>
+									<Data==426:420@
+*******B**********ªiöövg***B**********ªi÷öög***B**********ªiÄÃCh
+***B**********ªi÷övh***B**********ªi**ªh***B**********ªiÄÃÃh***B
+**********ªi]]Ýh***B**********ªi÷ööh***B**********ªih***B****
+******ªi***i***B**********ªi÷ö6i***B**********ªiÄÃCi***B********
+**ªiPi***B**********ªi]]]i***B**********ªi**ji***B**********ªi
+÷övi***B**********ªiÄÃƒi***B**********ªii***B**********ªi]]i
+***B**********ªi**ªi***B**********ªi>
+								>
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++*****)d+**ªi*)d>
+									>
+								>
+								<Id="PositionX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++*****úÖd+**ªi*úÖd>
+									>
+								>
+								<Id="PositionY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****nzg+**ªinzg>
+									>
+								>
+								<Id="PositionZ">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******ªi+**ªi**ªi>
+									>
+								>
+								<Id="ScaleZ">
+							>
+						>
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=0.001953>
+						<Y=0.001318>
+						<Z=0.050847>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/robot_protocol/robot_protocol_L_inch_01.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="Cube">
+				<UId=22>
+				<Active>
+				<Helper>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Scale=
+						<X=0.100000>
+						<Y=0.100000>
+						<Z=0.100000>
+					>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="@sys/gen/cube">
+				<CacheGeometry=True>
+			>
+		>
+	>
+	<Links=
+		<Link=
+			<Item=1>
+			<Link=0>
+		>
+		<Link=
+			<Item=2>
+			<Link=1>
+		>
+		<Link=
+			<Item=3>
+			<Link=1>
+		>
+		<Link=
+			<Item=4>
+			<Link=3>
+		>
+		<Link=
+			<Item=5>
+			<Link=4>
+		>
+		<Link=
+			<Item=6>
+			<Link=5>
+		>
+		<Link=
+			<Item=7>
+			<Link=6>
+		>
+		<Link=
+			<Item=8>
+			<Link=7>
+		>
+		<Link=
+			<Item=9>
+			<Link=7>
+		>
+		<Link=
+			<Item=10>
+			<Link=7>
+		>
+		<Link=
+			<Item=11>
+			<Link=10>
+		>
+		<Link=
+			<Item=12>
+			<Link=1>
+		>
+		<Link=
+			<Item=13>
+			<Link=12>
+		>
+		<Link=
+			<Item=14>
+			<Link=13>
+		>
+		<Link=
+			<Item=15>
+			<Link=14>
+		>
+		<Link=
+			<Item=16>
+			<Link=15>
+		>
+		<Link=
+			<Item=17>
+			<Link=16>
+		>
+		<Link=
+			<Item=18>
+			<Link=16>
+		>
+		<Link=
+			<Item=19>
+			<Link=16>
+		>
+		<Link=
+			<Item=20>
+			<Link=19>
+		>
+	>
+	<Constraints>
+	<Globals=
+		<BackgroundColor=
+			<X=0.000000>
+			<Y=0.000000>
+			<Z=0.000000>
+		>
+		<AmbientColor=
+			<X=0.400000>
+			<Y=0.400000>
+			<Z=0.400000>
+		>
+		<TimeOfDay=0.500000>
+		<AmbientIntensity=1.000000>
+		<TargetExposure=0.250000>
+		<FogNear=0.000000>
+		<FogFar=0.000000>
+		<FogColor=
+			<X=1.000000>
+			<Y=1.000000>
+			<Z=1.000000>
+		>
+	>
+	<Physics=
+		<Frequency=59.999996>
+	>
+	<ViewMatrix=
+		<R0=
+			<X=-0.950287>
+			<Y=0.000000>
+			<Z=-0.311377>
+			<W=0.000000>
+		>
+		<R1=
+			<X=0.103523>
+			<Y=0.943115>
+			<Z=-0.315940>
+			<W=0.000000>
+		>
+		<R2=
+			<X=0.293664>
+			<Y=-0.332468>
+			<Z=-0.896229>
+			<W=0.000000>
+		>
+		<R3=
+			<X=-1.270534>
+			<Y=1.707874>
+			<Z=3.044980>
+			<W=1.000000>
+		>
+	>
+>
+<Editor=
+	<View=
+		<Layout="Single">
+		<Viewport=
+			<Index=0>
+			<CameraUid=-16>
+			<Matrix=
+				<R0=
+					<X=-0.950287>
+					<Y=0.000000>
+					<Z=-0.311377>
+					<W=0.000000>
+				>
+				<R1=
+					<X=0.103523>
+					<Y=0.943115>
+					<Z=-0.315940>
+					<W=0.000000>
+				>
+				<R2=
+					<X=0.293664>
+					<Y=-0.332468>
+					<Z=-0.896229>
+					<W=0.000000>
+				>
+				<R3=
+					<X=-1.270534>
+					<Y=1.707874>
+					<Z=3.044980>
+					<W=1.000000>
+				>
+			>
+		>
+		<Viewport=
+			<Index=1>
+			<CameraUid=-10>
+			<Matrix=
+				<R0=
+					<X=1.000000>
+					<Y=0.000000>
+					<Z=0.000000>
+					<W=0.000000>
+				>
+				<R1=
+					<X=0.000000>
+					<Y=1.000000>
+					<Z=0.000000>
+					<W=0.000000>
+				>
+				<R2=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+					<W=0.000000>
+				>
+				<R3=
+					<X=0.000000>
+					<Y=10.000000>
+					<Z=0.000000>
+					<W=1.000000>
+				>
+			>
+		>
+		<Viewport=
+			<Index=2>
+			<CameraUid=-11>
+			<Matrix=
+				<R0=
+					<X=1.000000>
+					<Y=0.000000>
+					<Z=0.000000>
+					<W=0.000000>
+				>
+				<R1=
+					<X=0.000000>
+					<Y=1.000000>
+					<Z=0.000000>
+					<W=0.000000>
+				>
+				<R2=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+					<W=0.000000>
+				>
+				<R3=
+					<X=0.000000>
+					<Y=-10.000000>
+					<Z=0.000000>
+					<W=1.000000>
+				>
+			>
+		>
+		<Viewport=
+			<Index=3>
+			<CameraUid=-12>
+			<Matrix=
+				<R0=
+					<X=1.000000>
+					<Y=0.000000>
+					<Z=0.000000>
+					<W=0.000000>
+				>
+				<R1=
+					<X=0.000000>
+					<Y=1.000000>
+					<Z=0.000000>
+					<W=0.000000>
+				>
+				<R2=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+					<W=0.000000>
+				>
+				<R3=
+					<X=-10.000000>
+					<Y=0.000000>
+					<Z=0.000000>
+					<W=1.000000>
+				>
+			>
+		>
+	>
+>

@@ -1,0 +1,60 @@
+<Version=1.0>
+<Shader=
+	<Input=
+		<Attribute=<Name="a_uv"><Semantic="UV0">>
+		<Attribute=<Name="a_position"><Semantic="Position">>
+		<Attribute=<Name="a_normal"><Semantic="Normal">>
+
+		<Uniform=<Name="t_tex0"><Semantic="MaterialTexture0">>
+		<Uniform=<Name="u_framebuffer"><Semantic="FrameBuffer">>
+		<Uniform=<Name="u_diffuse_color"><Semantic="MaterialSelf">>
+
+		<Uniform=<Name="u_ibs"><Semantic="InverseBufferSize"><Scope=<Pixel>>>
+	>
+	<Varying=
+		<Variable=<Name="v_uv"><Type="vec2">>
+		<Variable=<Name="v_pos"><Type="vec3">>
+		<Variable=<Name="v_normal"><Type="vec3">>
+	>
+	<VertexSource="
+// Send the untransformed vertex position to the pixel shader so that it may determine the pixel position in the primitive.
+v_normal = a_normal;
+v_uv = a_uv;
+%position% = vec4(a_position, 1.0);
+vec4 w_offset = vec4(v_normal, 0) * 5.0;
+%position% += w_offset;
+	">
+	<PixelSource="
+vec2 uv = %in.fragcoord%.xy * u_ibs;
+vec4 _fbuffer;
+
+vec4 _mask = texture2D(t_tex0, v_uv * vec2(1.0,-1.0));
+
+if (_mask.w < 0.999)
+{
+	_fbuffer = vec4(0,0,0,0);
+
+	float x, y, n = 0.0;
+	float blur_rad = 0.0175 * pow(u_diffuse_color.x, 2.0);
+	for(x = -1.0; x < 1.0; x += 0.15)
+		for(y = -1.0; y < 1.0; y += 0.1)
+		{
+			_fbuffer += texture2D(u_framebuffer, uv + vec2(x,y) * blur_rad);
+			n += 1.0;
+		}
+	
+	_fbuffer /= n;
+	_fbuffer = pow(_fbuffer, 1.0 - (u_diffuse_color.x * 0.5)) * (1.0 + u_diffuse_color.x * 0.15);
+	
+	_fbuffer = mix(_fbuffer, texture2D(u_framebuffer, uv), _mask.w);
+}
+else
+{
+	_fbuffer += texture2D(u_framebuffer, uv);
+}
+
+// Output the frame buffer texture offseted by the FX.
+%diffuse% = vec4(0,0,0,0);
+%constant% = _fbuffer;
+	">
+>

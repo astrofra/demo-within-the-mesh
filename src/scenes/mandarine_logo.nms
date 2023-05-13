@@ -1,0 +1,664 @@
+<Version=1.0>
+<Scene=
+	<SceneMotionContainer=
+		<SceneMotion=
+			<Name="Take 001">
+			<ItemMotions=
+				<ItemMotion=
+					<UId=0>
+					<Motion=
+						<Id="Take 001">
+						<UseQuaternion=True>
+						<QChannel=
+							<BinaryKeys=
+								<Count=25>
+								<Data==507:500@
+****Xçå\***ª******ªiÔÔTgXçå\***ª******ªiÕÔÔgXçå\***ª******ªi***h
+Xçå\***ª******ªiÕÔThXçå\***ª******ªihXçå\***ª******ªi**ªhXçå\
+***ª******ªi¿hXçå\***ª******ªiÕÔÔhXçå\***ª******ªi**êhXçå\***ª
+******ªiÿhXçå\***ª******ªiÕÔhXçå\***ª******ªi***iXçå\***ª****
+**ªiÕÔ4iXçå\***ª******ªi?iXçå\***ª******ªi**JiXçå\***ª******ªi
+ÕÔTiXçå\***ª******ªi_iXçå\***ª******ªi**jiXçå\***ª******ªiÕÔti
+Xçå\***ª******ªiiXçå\***ª******ªi**ŠiXçå\***ª******ªiÕÔ”iXçå\
+***ª******ªiŸiXçå\***ª******ªi**ªiXçå\***ª******ªi>
+							>
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++********+ÔÔTg****+ÕÔÔg****+***h****+ÕÔTh****+h****+**ªh****+
+¿h****+ÕÔÔh****+**êh****+ÿh****+ÕÔh****+***i****+ÕÔ4i****+
+?i****+**Ji****+ÕÔTi****+_i****+**ji****+ÕÔti****+i****+**
+Ši****+ÕÔ”i****+Ÿi****+**ªi****>
+								>
+							>
+							<Id="PositionX">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++********+ÔÔTg****+ÕÔÔg****+***h****+ÕÔTh****+h****+**ªh****+
+¿h****+ÕÔÔh****+**êh****+ÿh****+ÕÔh****+***i****+ÕÔ4i****+
+?i****+**Ji****+ÕÔTi****+_i****+**ji****+ÕÔti****+i****+**
+Ši****+ÕÔ”i****+Ÿi****+**ªi****>
+								>
+							>
+							<Id="PositionY">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++********+ÔÔTg****+ÕÔÔg****+***h****+ÕÔTh****+h****+**ªh****+
+¿h****+ÕÔÔh****+**êh****+ÿh****+ÕÔh****+***i****+ÕÔ4i****+
+?i****+**Ji****+ÕÔTi****+_i****+**ji****+ÕÔti****+i****+**
+Ši****+ÕÔ”i****+Ÿi****+**ªi****>
+								>
+							>
+							<Id="PositionZ">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++******ªi+ÔÔTg**ªi+ÕÔÔg**ªi+***h**ªi+ÕÔTh**ªi+h**ªi+**ªh**ªi+
+¿h**ªi+ÕÔÔh**ªi+**êh**ªi+ÿh**ªi+ÕÔh**ªi+***i**ªi+ÕÔ4i**ªi+
+?i**ªi+**Ji**ªi+ÕÔTi**ªi+_i**ªi+**ji**ªi+ÕÔti**ªi+i**ªi+**
+Ši**ªi+ÕÔ”i**ªi+Ÿi**ªi+**ªi**ªi>
+								>
+							>
+							<Id="ScaleX">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++******ªi+ÔÔTg**ªi+ÕÔÔg**ªi+***h**ªi+ÕÔTh**ªi+h**ªi+**ªh**ªi+
+¿h**ªi+ÕÔÔh**ªi+**êh**ªi+ÿh**ªi+ÕÔh**ªi+***i**ªi+ÕÔ4i**ªi+
+?i**ªi+**Ji**ªi+ÕÔTi**ªi+_i**ªi+**ji**ªi+ÕÔti**ªi+i**ªi+**
+Ši**ªi+ÕÔ”i**ªi+Ÿi**ªi+**ªi**ªi>
+								>
+							>
+							<Id="ScaleY">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++******ªi+ÔÔTg**ªi+ÕÔÔg**ªi+***h**ªi+ÕÔTh**ªi+h**ªi+**ªh**ªi+
+¿h**ªi+ÕÔÔh**ªi+**êh**ªi+ÿh**ªi+ÕÔh**ªi+***i**ªi+ÕÔ4i**ªi+
+?i**ªi+**Ji**ªi+ÕÔTi**ªi+_i**ªi+**ji**ªi+ÕÔti**ªi+i**ªi+**
+Ši**ªi+ÕÔ”i**ªi+Ÿi**ªi+**ªi**ªi>
+								>
+							>
+							<Id="ScaleZ">
+						>
+					>
+				>
+				<ItemMotion=
+					<UId=1>
+					<Motion=
+						<Id="Take 001">
+						<UseQuaternion=True>
+						<QChannel=
+							<BinaryKeys=
+								<Count=25>
+								<Data==507:500@
+******ªB**********ªiÔÔTg**ªB**********ªiÕÔÔg**ªB**********ªi***h
+**ªB**********ªiÕÔTh**ªB**********ªih**ªB**********ªi**ªh**ªB
+**********ªi¿h**ªB**********ªiÕÔÔh**ªB**********ªi**êh**ªB****
+******ªiÿh**ªB**********ªiÕÔh**ªB**********ªi***i**ªB********
+**ªiÕÔ4i**ªB**********ªi?i**ªB**********ªi**Ji**ªB**********ªi
+ÕÔTi**ªB**********ªi_i**ªB**********ªi**ji**ªB**********ªiÕÔti
+**ªB**********ªii**ªB**********ªi**Ši**ªB**********ªiÕÔ”i**ªB
+**********ªiŸi**ªB**********ªi**ªi**ªB**********ªi>
+							>
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++********+ÔÔTg****+ÕÔÔg****+***h****+ÕÔTh****+h****+**ªh****+
+¿h****+ÕÔÔh****+**êh****+ÿh****+ÕÔh****+***i****+ÕÔ4i****+
+?i****+**Ji****+ÕÔTi****+_i****+**ji****+ÕÔti****+i****+**
+Ši****+ÕÔ”i****+Ÿi****+**ªi****>
+								>
+							>
+							<Id="PositionX">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++********+ÔÔTg****+ÕÔÔg****+***h****+ÕÔTh****+h****+**ªh****+
+¿h****+ÕÔÔh****+**êh****+ÿh****+ÕÔh****+***i****+ÕÔ4i****+
+?i****+**Ji****+ÕÔTi****+_i****+**ji****+ÕÔti****+i****+**
+Ši****+ÕÔ”i****+Ÿi****+**ªi****>
+								>
+							>
+							<Id="PositionY">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++********+ÔÔTg****+ÕÔÔg****+***h****+ÕÔTh****+h****+**ªh****+
+¿h****+ÕÔÔh****+**êh****+ÿh****+ÕÔh****+***i****+ÕÔ4i****+
+?i****+**Ji****+ÕÔTi****+_i****+**ji****+ÕÔti****+i****+**
+Ši****+ÕÔ”i****+Ÿi****+**ªi****>
+								>
+							>
+							<Id="PositionZ">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++******ªi+ÔÔTg**ªi+ÕÔÔg**ªi+***h**ªi+ÕÔTh**ªi+h**ªi+**ªh**ªi+
+¿h**ªi+ÕÔÔh**ªi+**êh**ªi+ÿh**ªi+ÕÔh**ªi+***i**ªi+ÕÔ4i**ªi+
+?i**ªi+**Ji**ªi+ÕÔTi**ªi+_i**ªi+**ji**ªi+ÕÔti**ªi+i**ªi+**
+Ši**ªi+ÕÔ”i**ªi+Ÿi**ªi+**ªi**ªi>
+								>
+							>
+							<Id="ScaleX">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++******ªi+ÔÔTg**ªi+ÕÔÔg**ªi+***h**ªi+ÕÔTh**ªi+h**ªi+**ªh**ªi+
+¿h**ªi+ÕÔÔh**ªi+**êh**ªi+ÿh**ªi+ÕÔh**ªi+***i**ªi+ÕÔ4i**ªi+
+?i**ªi+**Ji**ªi+ÕÔTi**ªi+_i**ªi+**ji**ªi+ÕÔti**ªi+i**ªi+**
+Ši**ªi+ÕÔ”i**ªi+Ÿi**ªi+**ªi**ªi>
+								>
+							>
+							<Id="ScaleY">
+						>
+						<Channel=
+							<Curve=
+								<BinaryKnot=
+									<Count=25>
+									<Data==228:225@
++******ªi+ÔÔTg**ªi+ÕÔÔg**ªi+***h**ªi+ÕÔTh**ªi+h**ªi+**ªh**ªi+
+¿h**ªi+ÕÔÔh**ªi+**êh**ªi+ÿh**ªi+ÕÔh**ªi+***i**ªi+ÕÔ4i**ªi+
+?i**ªi+**Ji**ªi+ÕÔTi**ªi+_i**ªi+**ji**ªi+ÕÔti**ªi+i**ªi+**
+Ši**ªi+ÕÔ”i**ªi+Ÿi**ªi+**ªi**ªi>
+								>
+							>
+							<Id="ScaleZ">
+						>
+					>
+				>
+			>
+		>
+	>
+	<Items=
+		<MObject=
+			<MItem=
+				<Id="wall_logo">
+				<UId=0>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/wall_logo.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="mandarine_logo_neon">
+				<UId=1>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/mandarine_logo_neon.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MLight=
+			<MItem=
+				<Id="logo_main_spotlight">
+				<UId=2>
+				<Active>
+				<Priority=1.000000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Light=
+				<Item=
+					<Position=
+						<X=0.000001>
+						<Y=3.427309>
+						<Z=7.272213>
+					>
+					<Rotation=
+						<X=0.408407>
+						<Y=3.141593>
+						<Z=3.141593>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Diffuse=
+					<X=0.286275>
+					<Y=0.309804>
+					<Z=0.411765>
+				>
+				<Specular=
+					<X=0.286275>
+					<Y=0.309804>
+					<Z=0.411765>
+				>
+				<ShadowColor=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=0.000000>
+				>
+				<Type="Spot">
+				<Falloff="Linear">
+				<Range=0.000000>
+				<VolumeRange=500.000000>
+				<ClipDistance=300.000000>
+				<ProjectionMap="">
+				<DiffuseIntensity=1.000000>
+				<SpecularIntensity=2.000000>
+				<ConeAngle=0.000000>
+				<EdgeAngle=0.523599>
+				<ZNear=0.020000>
+				<Shadow="Map">
+				<ShadowBias=0.010000>
+				<ShadowDistribution=0.900000>
+				<ShadowRange=100.000000>
+				<ShadowCastAll=False>
+				<Volumetric=False>
+				<VolumetricSampleStep=0.500000>
+				<VolumetricThick=1.000000>
+				<VolumetricRange=8.000000>
+			>
+		>
+		<MCamera=
+			<MItem=
+				<Id="logo_render_camera">
+				<UId=3>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Camera=
+				<Item=
+					<Position=
+						<X=0.000001>
+						<Y=0.000000>
+						<Z=12.154275>
+					>
+					<Rotation=
+						<X=-0.000000>
+						<Y=3.141593>
+						<Z=0.000000>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry=
+						<PostProcess=
+							<Noise=
+								<Strength=0.150000>
+								<Monochromatic=1.000000>
+								<LumaBias=0.100000>
+							>
+							<Bloom=
+								<Strength=10.000000>
+								<Radius=4.000000>
+								<Threshold=0.700000>
+								<Exponent=12.000000>
+								<Streak=
+									<Enabled=0.000000>
+								>
+							>
+							<SSAO=
+								<Strength=5.000000>
+								<Radius=100.000000>
+								<DistanceScale=5.000000>
+								<BlurRadius=2.000000>
+							>
+						>
+					>
+				>
+				<ZNear=0.200000>
+				<ZFar=50000.000000>
+				<AspectRatioRefYAxis=True>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="mandarine_logo_handler">
+				<UId=4>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<ScriptedObject=
+					<ScriptUnit=
+						<ScriptPath="scripts/logo_handler.nut">
+						<Class="MandaLogoHandler">
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="">
+				<CacheGeometry=True>
+			>
+		>
+	>
+	<Links=
+		<Link=
+			<Item=0>
+			<Link=4>
+		>
+		<Link=
+			<Item=1>
+			<Link=4>
+		>
+		<Link=
+			<Item=2>
+			<Link=4>
+		>
+		<Link=
+			<Item=3>
+			<Link=4>
+		>
+	>
+	<Constraints>
+	<Globals=
+		<BackgroundColor=
+			<X=0.000000>
+			<Y=0.000000>
+			<Z=0.000000>
+		>
+		<AmbientColor=
+			<X=0.258824>
+			<Y=0.274510>
+			<Z=0.282353>
+		>
+		<TimeOfDay=0.500000>
+		<AmbientIntensity=1.000000>
+		<TargetExposure=0.250000>
+		<FogNear=0.000000>
+		<FogFar=0.000000>
+		<FogColor=
+			<X=1.000000>
+			<Y=1.000000>
+			<Z=1.000000>
+		>
+	>
+	<Physics=
+		<Frequency=59.999996>
+	>
+	<CurrentCamera="logo_render_camera">
+	<ViewMatrix=
+		<R0=
+			<X=-1.000000>
+			<Y=0.000000>
+			<Z=0.000000>
+			<W=0.000000>
+		>
+		<R1=
+			<X=0.000000>
+			<Y=1.000000>
+			<Z=0.000000>
+			<W=0.000000>
+		>
+		<R2=
+			<X=0.000000>
+			<Y=0.000000>
+			<Z=-1.000000>
+			<W=0.000000>
+		>
+		<R3=
+			<X=0.000001>
+			<Y=0.000000>
+			<Z=12.154275>
+			<W=1.000000>
+		>
+	>
+>
+<Editor=
+	<View=
+		<Layout="Single">
+		<Viewport=
+			<Index=0>
+			<CameraUid=3>
+			<Matrix=
+				<R0=
+					<X=-1.000000>
+					<Y=0.000000>
+					<Z=0.000000>
+					<W=0.000000>
+				>
+				<R1=
+					<X=0.000000>
+					<Y=1.000000>
+					<Z=0.000000>
+					<W=0.000000>
+				>
+				<R2=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=-1.000000>
+					<W=0.000000>
+				>
+				<R3=
+					<X=0.000001>
+					<Y=0.000000>
+					<Z=12.154275>
+					<W=1.000000>
+				>
+			>
+		>
+		<Viewport=
+			<Index=1>
+			<CameraUid=-10>
+			<Matrix=
+				<R0=
+					<X=1.000000>
+					<Y=0.000000>
+					<Z=0.000000>
+					<W=0.000000>
+				>
+				<R1=
+					<X=0.000000>
+					<Y=1.000000>
+					<Z=0.000000>
+					<W=0.000000>
+				>
+				<R2=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+					<W=0.000000>
+				>
+				<R3=
+					<X=0.000000>
+					<Y=10.000000>
+					<Z=0.000000>
+					<W=1.000000>
+				>
+			>
+		>
+		<Viewport=
+			<Index=2>
+			<CameraUid=-11>
+			<Matrix=
+				<R0=
+					<X=1.000000>
+					<Y=0.000000>
+					<Z=0.000000>
+					<W=0.000000>
+				>
+				<R1=
+					<X=0.000000>
+					<Y=1.000000>
+					<Z=0.000000>
+					<W=0.000000>
+				>
+				<R2=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+					<W=0.000000>
+				>
+				<R3=
+					<X=0.000000>
+					<Y=-10.000000>
+					<Z=0.000000>
+					<W=1.000000>
+				>
+			>
+		>
+		<Viewport=
+			<Index=3>
+			<CameraUid=-12>
+			<Matrix=
+				<R0=
+					<X=1.000000>
+					<Y=0.000000>
+					<Z=0.000000>
+					<W=0.000000>
+				>
+				<R1=
+					<X=0.000000>
+					<Y=1.000000>
+					<Z=0.000000>
+					<W=0.000000>
+				>
+				<R2=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+					<W=0.000000>
+				>
+				<R3=
+					<X=-10.000000>
+					<Y=0.000000>
+					<Z=0.000000>
+					<W=1.000000>
+				>
+			>
+		>
+	>
+>

@@ -1,0 +1,13 @@
+<Version=1.0>
+<Environment=
+	<Name="demo-eryx">
+	<Authors="Polymorf-Astrofra-Alkama">
+	<Description="Demoscene artefact, prepared for the Evoke 2013, Koeln, Germany.">
+	<Company="Empty Notice">
+	<ScriptUnit=
+		<ScriptPath="scripts/project.nut">
+		<Class="ProjectHandler">
+	>
+	<Include>
+	<SearchPaths>
+>

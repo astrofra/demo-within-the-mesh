@@ -1,0 +1,1459 @@
+<Version=1.0>
+<Scene=
+	<SceneMotionContainer=
+		<SceneMotion=
+			<Name="Take 001">
+			<ItemMotions>
+		>
+	>
+	<Items=
+		<MObject=
+			<MItem=
+				<Id="Plane001">
+				<UId=0>
+				<Active>
+				<Helper>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions=
+						<Motion=
+							<Id="Take 001">
+							<UseQuaternion=True>
+							<QChannel=
+								<BinaryKeys=
+									<Count=68>
+									<Data==1383:1360@
+****._é********._iöövg._é********._i÷öög._é********._iÄÃCh
+._é********._i÷övh._é********._i**ªh._é********._iÄÃÃh._é
+********._i]]Ýh._é********._i÷ööh._é********._ih._é****
+****._i***i._é********._i÷ö6i._é********._iÄÃCi._é********
+._iPi._é********._i]]]i._é********._i**ji._é********._i
+÷övi._é********._iÄÃƒi._é********._ii._é********._i]]i
+._é********._i**ªi._é********._i°i._é********._i÷ö¶i._é
+********._i]]½i._é********._iÄÃÃi._é********._i**Êi._é****
+****._iÐi._é********._i÷öÖi._é********._i]]Ýi._é********
+._iÄÃãi._é********._i**êi._é********._iði._é********._i
+÷ööi._é********._i]]ýi._é********._iÄÃi._é********._i**=J
+i._é********._ii._é********._i÷öi._é********._i]]i._
+é********._iÄÃ#i._é********._i***j._é********._i]]-j._é***
+*****._i0j._é********._iÄÃ3j._é********._i÷ö6j._é*******
+*._i**:j._é********._i]]=}j._é********._i@j._é********.
+_iÄÃCj._é********._i÷öFj._é********._i**Jj._é********._i]]
+Mj._é********._iPj._é********._iÄÃSj._é********._i÷öVj.
+_é********._i**Zj._é********._i]]]j._é********._i`j._é**
+******._iÄÃcj._é********._i÷öfj._é********._i**jj._é******
+**._i]]mj._é********._ipj._é********._iÄÃsj._é********.
+_i÷övj._é********._i**zj._é********._i]]}j._é********._i
+€j._é********._i>
+								>
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****B÷†í+€jB÷†í>
+									>
+								>
+								<Id="PositionX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++******?l+€j**?l>
+									>
+								>
+								<Id="PositionY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==20:18@
++****=JŸ7í+€j=JŸ7í>
+									>
+								>
+								<Id="PositionZ">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****!âi+€j!âi>
+									>
+								>
+								<Id="ScaleX">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****!âi+€j!âi>
+									>
+								>
+								<Id="ScaleY">
+							>
+							<Channel=
+								<Curve=
+									<BinaryKnot=
+										<Count=2>
+										<Data==18:18@
++****!âi+€j!âi>
+									>
+								>
+								<Id="ScaleZ">
+							>
+						>
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Scale=
+						<X=2.000000>
+						<Y=2.000000>
+						<Z=2.000000>
+					>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="Libraries/Astrofra - Ancient World Kit/ground.nmg">
+				<CacheGeometry=True>
+			>
+		>
+		<MLight=
+			<MItem=
+				<Id="sun">
+				<UId=1>
+				<Active>
+				<Helper>
+				<Priority=1.000000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Light=
+				<Item=
+					<Position=
+						<X=-347.584290>
+						<Y=1679.293457>
+						<Z=403.069275>
+					>
+					<Rotation=
+						<X=0.493340>
+						<Y=1.196655>
+						<Z=0.346274>
+					>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Diffuse=
+					<X=1.000000>
+					<Y=1.000000>
+					<Z=1.000000>
+				>
+				<Specular=
+					<X=1.000000>
+					<Y=1.000000>
+					<Z=1.000000>
+				>
+				<ShadowColor=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=0.000000>
+				>
+				<Type="Parallel">
+				<Falloff="Linear">
+				<Range=0.000000>
+				<VolumeRange=500.000000>
+				<ClipDistance=300.000000>
+				<ProjectionMap="">
+				<DiffuseIntensity=1.150000>
+				<SpecularIntensity=1.150000>
+				<ConeAngle=0.523599>
+				<EdgeAngle=0.523599>
+				<ZNear=0.020000>
+				<Shadow="Map">
+				<ShadowBias=0.010000>
+				<ShadowDistribution=0.900000>
+				<ShadowRange=500.000000>
+				<ShadowCastAll=False>
+				<Volumetric=False>
+				<VolumetricSampleStep=0.500000>
+				<VolumetricThick=1.000000>
+				<VolumetricRange=8.000000>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="cristal_transparent_large">
+				<UId=2>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<ScriptedObject=
+					<ScriptUnit=
+						<ScriptPath="scripts/crystal_animator.nut">
+						<Class="CrystalAnimator">
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=0.246330>
+						<Y=-0.539871>
+						<Z=-0.001000>
+					>
+					<Rotation=
+						<X=-0.000000>
+						<Y=-0.565487>
+						<Z=0.000000>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/cristal_transparent_large.nmg">
+				<CacheGeometry=False>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="cristal_transparent_large">
+				<UId=3>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<ScriptedObject=
+					<ScriptUnit=
+						<ScriptPath="scripts/crystal_animator.nut">
+						<Class="CrystalAnimator">
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=1.026493>
+						<Y=-1.170744>
+						<Z=0.400303>
+					>
+					<Rotation=
+						<X=0.177784>
+						<Y=-0.426660>
+						<Z=-0.204048>
+					>
+					<Scale=
+						<X=0.800000>
+						<Y=0.800000>
+						<Z=0.800000>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/cristal_transparent_large.nmg">
+				<CacheGeometry=False>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="cristal_transparent_large">
+				<UId=4>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<ScriptedObject=
+					<ScriptUnit=
+						<ScriptPath="scripts/crystal_animator.nut">
+						<Class="CrystalAnimator">
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=0.797531>
+						<Y=-1.250201>
+						<Z=-1.312283>
+					>
+					<Rotation=
+						<X=0.387951>
+						<Y=2.006011>
+						<Z=-0.178126>
+					>
+					<Scale=
+						<X=0.700000>
+						<Y=0.700000>
+						<Z=0.700000>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/cristal_transparent_large.nmg">
+				<CacheGeometry=False>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="cristal_transparent_large">
+				<UId=5>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<ScriptedObject=
+					<ScriptUnit=
+						<ScriptPath="scripts/crystal_animator.nut">
+						<Class="CrystalAnimator">
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=0.126974>
+						<Y=-2.069560>
+						<Z=0.275181>
+					>
+					<Rotation=
+						<X=0.295119>
+						<Y=-1.142464>
+						<Z=-0.024621>
+					>
+					<Scale=
+						<X=0.600000>
+						<Y=0.700000>
+						<Z=0.600000>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/cristal_transparent_large.nmg">
+				<CacheGeometry=False>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="branch">
+				<UId=6>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<ScriptedObject=
+					<ScriptUnit=
+						<ScriptPath="scripts/crystal_animator.nut">
+						<Class="CrystalAnimator">
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=0.981945>
+						<Y=-0.392298>
+						<Z=-0.824503>
+					>
+					<Rotation=
+						<X=0.059866>
+						<Y=0.187551>
+						<Z=-0.754311>
+					>
+					<Scale=
+						<X=2.000000>
+						<Y=3.000001>
+						<Z=2.000000>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/plant_branch_short_chrome.nmg">
+				<CacheGeometry=False>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="branch">
+				<UId=7>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<ScriptedObject=
+					<ScriptUnit=
+						<ScriptPath="scripts/crystal_animator.nut">
+						<Class="CrystalAnimator">
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=-1.416932>
+						<Y=0.133792>
+						<Z=0.358154>
+					>
+					<Rotation=
+						<X=-0.048224>
+						<Y=0.284329>
+						<Z=0.681538>
+					>
+					<Scale=
+						<X=2.000000>
+						<Y=3.000001>
+						<Z=2.000000>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/plant_branch_short_chrome.nmg">
+				<CacheGeometry=False>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="branch">
+				<UId=8>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<ScriptedObject=
+					<ScriptUnit=
+						<ScriptPath="scripts/crystal_animator.nut">
+						<Class="CrystalAnimator">
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=-0.502039>
+						<Y=0.057113>
+						<Z=-0.646021>
+					>
+					<Rotation=
+						<X=-0.056648>
+						<Y=2.273751>
+						<Z=-1.096522>
+					>
+					<Scale=
+						<X=2.000000>
+						<Y=4.000000>
+						<Z=2.000000>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/plant_branch_short_chrome.nmg">
+				<CacheGeometry=False>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="branch">
+				<UId=9>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<ScriptedObject=
+					<ScriptUnit=
+						<ScriptPath="scripts/crystal_animator.nut">
+						<Class="CrystalAnimator">
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=0.980561>
+						<Y=0.133792>
+						<Z=0.813428>
+					>
+					<Rotation=
+						<X=0.173262>
+						<Y=2.199317>
+						<Z=0.657104>
+					>
+					<Scale=
+						<X=2.000000>
+						<Y=3.000001>
+						<Z=2.000000>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/plant_branch_short_chrome.nmg">
+				<CacheGeometry=False>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="branch">
+				<UId=10>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<ScriptedObject=
+					<ScriptUnit=
+						<ScriptPath="scripts/crystal_animator.nut">
+						<Class="CrystalAnimator">
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=0.359414>
+						<Y=-0.808509>
+						<Z=-0.566749>
+					>
+					<Rotation=
+						<X=-0.039192>
+						<Y=1.851508>
+						<Z=-0.936529>
+					>
+					<Scale=
+						<X=2.000000>
+						<Y=4.000000>
+						<Z=2.000000>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/plant_branch_short_chrome.nmg">
+				<CacheGeometry=False>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="branch">
+				<UId=11>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<ScriptedObject=
+					<ScriptUnit=
+						<ScriptPath="scripts/crystal_animator.nut">
+						<Class="CrystalAnimator">
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=1.719876>
+						<Y=-0.582250>
+						<Z=0.096441>
+					>
+					<Rotation=
+						<X=0.622724>
+						<Y=1.275343>
+						<Z=-0.109864>
+					>
+					<Scale=
+						<X=4.000000>
+						<Y=3.000000>
+						<Z=4.000000>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/plant_branch_short_chrome.nmg">
+				<CacheGeometry=False>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="branch">
+				<UId=12>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<ScriptedObject=
+					<ScriptUnit=
+						<ScriptPath="scripts/crystal_animator.nut">
+						<Class="CrystalAnimator">
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=-0.337536>
+						<Y=-0.392298>
+						<Z=-0.761798>
+					>
+					<Rotation=
+						<X=0.055762>
+						<Y=1.785828>
+						<Z=-0.520822>
+					>
+					<Scale=
+						<X=2.000000>
+						<Y=3.000001>
+						<Z=2.000000>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/plant_branch_short_chrome.nmg">
+				<CacheGeometry=False>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="branch">
+				<UId=13>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<ScriptedObject=
+					<ScriptUnit=
+						<ScriptPath="scripts/crystal_animator.nut">
+						<Class="CrystalAnimator">
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=0.469959>
+						<Y=0.133792>
+						<Z=1.499725>
+					>
+					<Rotation=
+						<X=-0.603891>
+						<Y=2.314197>
+						<Z=0.498450>
+					>
+					<Scale=
+						<X=2.000000>
+						<Y=3.000001>
+						<Z=2.000000>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/plant_branch_short_chrome.nmg">
+				<CacheGeometry=False>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="branch">
+				<UId=14>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<ScriptedObject=
+					<ScriptUnit=
+						<ScriptPath="scripts/crystal_animator.nut">
+						<Class="CrystalAnimator">
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=-0.170714>
+						<Y=0.057113>
+						<Z=0.723542>
+					>
+					<Rotation=
+						<X=-0.131764>
+						<Y=-2.455081>
+						<Z=-1.005339>
+					>
+					<Scale=
+						<X=2.000000>
+						<Y=4.000000>
+						<Z=2.000000>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/plant_branch_short_chrome.nmg">
+				<CacheGeometry=False>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="branch">
+				<UId=15>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<ScriptedObject=
+					<ScriptUnit=
+						<ScriptPath="scripts/crystal_animator.nut">
+						<Class="CrystalAnimator">
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=1.300334>
+						<Y=0.133792>
+						<Z=-0.747550>
+					>
+					<Rotation=
+						<X=0.173262>
+						<Y=-2.520926>
+						<Z=0.657104>
+					>
+					<Scale=
+						<X=2.000000>
+						<Y=3.000001>
+						<Z=2.000000>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/plant_branch_short_chrome.nmg">
+				<CacheGeometry=False>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="branch">
+				<UId=16>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<ScriptedObject=
+					<ScriptUnit=
+						<ScriptPath="scripts/crystal_animator.nut">
+						<Class="CrystalAnimator">
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=-0.084679>
+						<Y=-0.808509>
+						<Z=0.167693>
+					>
+					<Rotation=
+						<X=-0.039192>
+						<Y=2.731154>
+						<Z=-0.936529>
+					>
+					<Scale=
+						<X=2.000000>
+						<Y=4.000000>
+						<Z=2.000000>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/plant_branch_short_chrome.nmg">
+				<CacheGeometry=False>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="branch">
+				<UId=17>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<ScriptedObject=
+					<ScriptUnit=
+						<ScriptPath="scripts/crystal_animator.nut">
+						<Class="CrystalAnimator">
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=0.589175>
+						<Y=-0.582250>
+						<Z=-1.492474>
+					>
+					<Rotation=
+						<X=0.650180>
+						<Y=2.831862>
+						<Z=-0.120669>
+					>
+					<Scale=
+						<X=4.000000>
+						<Y=3.000000>
+						<Z=4.000000>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/plant_branch_short_chrome.nmg">
+				<CacheGeometry=False>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="cristal_transparent_large">
+				<UId=18>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<ScriptedObject=
+					<ScriptUnit=
+						<ScriptPath="scripts/crystal_animator.nut">
+						<Class="CrystalAnimator">
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=1.761344>
+						<Y=-0.195607>
+						<Z=-0.716246>
+					>
+					<Rotation=
+						<X=0.947995>
+						<Y=2.303746>
+						<Z=0.279142>
+					>
+					<Scale=
+						<X=0.400000>
+						<Y=0.300000>
+						<Z=0.400000>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/cristal_transparent_large.nmg">
+				<CacheGeometry=False>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="branch">
+				<UId=19>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<ScriptedObject=
+					<ScriptUnit=
+						<ScriptPath="scripts/crystal_animator.nut">
+						<Class="CrystalAnimator">
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=-0.084679>
+						<Y=-0.808509>
+						<Z=0.167693>
+					>
+					<Rotation=
+						<X=-0.039192>
+						<Y=2.731154>
+						<Z=-0.507178>
+					>
+					<Scale=
+						<X=2.000000>
+						<Y=4.000000>
+						<Z=2.000000>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/plant_branch_short_chrome.nmg">
+				<CacheGeometry=False>
+			>
+		>
+		<MObject=
+			<MItem=
+				<Id="branch">
+				<UId=20>
+				<Active>
+				<Priority=0.500000>
+				<MotionPlayer=
+					<Motions>
+				>
+				<ScriptedObject=
+					<ScriptUnit=
+						<ScriptPath="scripts/crystal_animator.nut">
+						<Class="CrystalAnimator">
+					>
+				>
+				<PhysicItem=
+					<SelfMask=1>
+					<Mask=1>
+					<LinearDamping_v2=1.000000>
+					<AngularDamping_v2=1.000000>
+					<CharacterRadius=1.000000>
+					<CharacterHeight=1.000000>
+					<CharacterMaxStep=0.200000>
+					<Mode="None">
+				>
+			>
+			<Object=
+				<Item=
+					<Position=
+						<X=-0.084679>
+						<Y=-0.808509>
+						<Z=0.167693>
+					>
+					<Rotation=
+						<X=-0.181718>
+						<Y=0.226548>
+						<Z=-0.535720>
+					>
+					<Scale=
+						<X=2.000000>
+						<Y=4.000000>
+						<Z=2.000000>
+					>
+					<ItemFlag>
+					<Target=
+						<X=0.000000>
+						<Y=0.000000>
+						<Z=1.000000>
+					>
+					<RotationOrder="YXZ">
+					<Registry>
+				>
+				<Geometry="assets/plant_branch_short_chrome.nmg">
+				<CacheGeometry=False>
+			>
+		>
+	>
+	<Links>
+	<Constraints>
+	<Globals=
+		<BackgroundColor=
+			<X=0.000000>
+			<Y=0.000000>
+			<Z=0.000000>
+		>
+		<AmbientColor=
+			<X=0.400000>
+			<Y=0.400000>
+			<Z=0.400000>
+		>
+		<TimeOfDay=0.500000>
+		<AmbientIntensity=1.000000>
+		<TargetExposure=0.250000>
+		<FogNear=0.000000>
+		<FogFar=0.000000>
+		<FogColor=
+			<X=1.000000>
+			<Y=1.000000>
+			<Z=1.000000>
+		>
+	>
+	<Physics=
+		<Frequency=59.999996>
+	>
+	<ViewMatrix=
+		<R0=
+			<X=0.898863>
+			<Y=0.000000>
+			<Z=0.438229>
+			<W=0.000000>
+		>
+		<R1=
+			<X=-0.267420>
+			<Y=0.792226>
+			<Z=0.548512>
+			<W=0.000000>
+		>
+		<R2=
+			<X=-0.347176>
+			<Y=-0.610228>
+			<Z=0.712103>
+			<W=0.000000>
+		>
+		<R3=
+			<X=13.883028>
+			<Y=29.223072>
+			<Z=-27.187819>
+			<W=1.000000>
+		>
+	>
+>
+<Editor=
+	<View=
+		<Layout="Single">
+		<Viewport=
+			<Index=0>
+			<CameraUid=-16>
+			<Matrix=
+				<R0=
+					<X=0.898863>
+					<Y=0.000000>
+					<Z=0.438229>
+					<W=0.000000>
+				>
+				<R1=
+					<X=-0.267420>
+					<Y=0.792226>
+					<Z=0.548512>
+					<W=0.000000>
+				>
+				<R2=
+					<X=-0.347176>
+					<Y=-0.610228>
+					<Z=0.712103>
+					<W=0.000000>
+				>
+				<R3=
+					<X=13.883028>
+					<Y=29.223072>
+					<Z=-27.187819>
+					<W=1.000000>
+				>
+			>
+		>
+		<Viewport=
+			<Index=1>
+			<CameraUid=-10>
+			<Matrix=
+				<R0=
+					<X=1.000000>
+					<Y=0.000000>
+					<Z=0.000000>
+					<W=0.000000>
+				>
+				<R1=
+					<X=0.000000>
+					<Y=1.000000>
+					<Z=0.000000>
+					<W=0.000000>
+				>
+				<R2=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+					<W=0.000000>
+				>
+				<R3=
+					<X=0.000000>
+					<Y=10.000000>
+					<Z=0.000000>
+					<W=1.000000>
+				>
+			>
+		>
+		<Viewport=
+			<Index=2>
+			<CameraUid=-11>
+			<Matrix=
+				<R0=
+					<X=1.000000>
+					<Y=0.000000>
+					<Z=0.000000>
+					<W=0.000000>
+				>
+				<R1=
+					<X=0.000000>
+					<Y=1.000000>
+					<Z=0.000000>
+					<W=0.000000>
+				>
+				<R2=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+					<W=0.000000>
+				>
+				<R3=
+					<X=0.000000>
+					<Y=-10.000000>
+					<Z=0.000000>
+					<W=1.000000>
+				>
+			>
+		>
+		<Viewport=
+			<Index=3>
+			<CameraUid=-12>
+			<Matrix=
+				<R0=
+					<X=1.000000>
+					<Y=0.000000>
+					<Z=0.000000>
+					<W=0.000000>
+				>
+				<R1=
+					<X=0.000000>
+					<Y=1.000000>
+					<Z=0.000000>
+					<W=0.000000>
+				>
+				<R2=
+					<X=0.000000>
+					<Y=0.000000>
+					<Z=1.000000>
+					<W=0.000000>
+				>
+				<R3=
+					<X=-10.000000>
+					<Y=0.000000>
+					<Z=0.000000>
+					<W=1.000000>
+				>
+			>
+		>
+	>
+>

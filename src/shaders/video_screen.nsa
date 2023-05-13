@@ -1,0 +1,82 @@
+<Version=1.0>
+<Shader=
+	<Input=
+		<Attribute=<Name="a_uv"><Semantic="UV0">>
+		<Attribute=<Name="a_position"><Semantic="Position">>
+		<Attribute=<Name="a_normal"><Semantic="Normal">>
+
+		<Uniform=<Name="t_tex0"><Semantic="MaterialTexture0">>
+		<Uniform=<Name="t_tex1"><Semantic="MaterialTexture1">>
+		<Uniform=<Name="u_framebuffer"><Semantic="FrameBuffer">>
+		<Uniform=<Name="u_diffuse_color"><Semantic="MaterialSelf">>
+
+		<Uniform=<Name="u_ibs"><Semantic="InverseBufferSize"><Scope=<Pixel>>>
+	>
+	<Varying=
+		<Variable=<Name="v_uv"><Type="vec2">>
+		<Variable=<Name="v_pos"><Type="vec3">>
+		<Variable=<Name="v_normal"><Type="vec3">>
+	>
+	<VertexSource="
+// Send the untransformed vertex position to the pixel shader so that it may determine the pixel position in the primitive.
+v_normal = a_normal;
+v_uv = a_uv;
+%position% = vec4(a_position, 1.0);
+	">
+	<PixelSource="
+vec2 uv = %in.fragcoord%.xy * u_ibs;
+
+//	Scanline creation
+
+float	scanline = 1.0 - u_diffuse_color.x;
+
+//	spherical uv offset
+
+vec2 sph_uv = v_uv * vec2(0.5, 4.0) + vec2(0.5,0.0);
+sph_uv *= mix(vec2(1.0,1.0), texture2D(t_tex1, v_uv + vec2(0.0, 0.05)).xx, scanline);
+
+vec4 scan_buffer = texture2D(t_tex0, sph_uv);
+scan_buffer = mix(vec4(1,1,1,1), scan_buffer, scanline);
+
+//	Framebuffer
+vec4 _fbuffer;
+float _blur = (1.0 - pow(u_diffuse_color.x, 0.5)) * (1.0 - scan_buffer.x * 0.35);
+
+vec2 _fbuff_uv = uv + (vec2(-0.0015, -0.0015) * scan_buffer.x * scanline);
+
+if (_blur > 0.0001)
+{
+	_fbuffer = vec4(0,0,0,0);
+
+	float x, y, n = 0.0;
+	float blur_rad = 0.025 * _blur * _blur;
+	for(x = -1.0; x < 1.0; x += 0.15)
+		for(y = -1.0; y < 1.0; y += 0.1)
+		{
+			_fbuffer += texture2D(u_framebuffer, _fbuff_uv + vec2(x,y) * blur_rad);
+			n += 1.0;
+		}
+	
+	_fbuffer /= n;
+}
+else
+	_fbuffer += texture2D(u_framebuffer, _fbuff_uv);
+
+//	Desaturated version of the buffer
+float saturation = u_diffuse_color.x * u_diffuse_color.x * u_diffuse_color.x;
+
+float luma = (_fbuffer.x + _fbuffer.y + _fbuffer.z) * 0.3333;
+luma = clamp((luma + 0.1) * 1.25, 0.0, 1.0);
+luma = (luma * luma * (3 - 2 * luma));
+luma = clamp(luma * 0.85, 0.15, 0.8);
+
+vec4 grey_buffer = vec4(luma,luma,luma,1.0);
+vec4 final_buffer = mix(grey_buffer, _fbuffer, saturation);
+
+final_buffer *= scan_buffer;
+
+// Output the frame buffer texture offseted by the FX.
+%diffuse% = vec4(0,0,0,0);
+%constant% = final_buffer;
+	">
+>

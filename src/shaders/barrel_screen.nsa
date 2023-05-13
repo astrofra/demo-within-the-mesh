@@ -1,0 +1,61 @@
+<Version=1.0>
+<Shader=
+	<Input=
+		<Attribute=<Name="a_uv"><Semantic="UV0">>
+		<Attribute=<Name="a_position"><Semantic="Position">>
+		<Attribute=<Name="a_normal"><Semantic="Normal">>
+
+		<Uniform=<Name="u_framebuffer"><Semantic="FrameBuffer">>
+		<Uniform=<Name="u_ibs"><Semantic="InverseBufferSize"><Scope=<Pixel>>>
+	>
+	<Varying=
+		<Variable=<Name="v_uv"><Type="vec2">>
+		<Variable=<Name="v_pos"><Type="vec3">>
+		<Variable=<Name="v_normal"><Type="vec3">>
+	>
+	<VertexSource="
+v_normal = a_normal;
+v_uv = a_uv;
+	">
+	<PixelDeclaration=
+"
+vec2 HmdWarp(vec2 in01)
+{
+vec2 ScaleIn = vec2(4.0,2.0);	//	uniform
+vec2 Scale = vec2(0.5,0.5);	//	uniform
+vec4 HmdWarpParam = vec4(1.0,0.22,0.24,0.0);	//	uniform
+vec2 LensCenter = vec2(0.5, 0.5);	//	invariant in 
+
+vec2 theta = (in01 - LensCenter) * ScaleIn; // Scales to [-1, 1]
+float rSq = theta.x * theta.x + theta.y * theta.y;
+vec2 rvector= theta * (	HmdWarpParam.x + HmdWarpParam.y * rSq
+						+ HmdWarpParam.z * rSq * rSq
+						+ HmdWarpParam.w * rSq * rSq * rSq
+						);
+return (LensCenter + Scale * rvector);
+}
+"
+	>
+	<PixelSource="
+vec2	uv = %in.fragcoord%.xy * u_ibs;
+vec4	final_buffer;
+
+vec2 ScreenCenter = vec2(0.5, 0.5);	//	invariant in 
+
+// scale the texture coordinates for better noise
+vec2 tc = HmdWarp(uv);
+//tc.y = 1.0 - tc.y;
+//if (!all(equal(clamp(tc, ScreenCenter-vec2(0.25,0.5), ScreenCenter+vec2(0.25,0.5)), tc)))
+//{
+//final_buffer = vec4(0.0);
+//} 
+//else 
+//{
+final_buffer = texture2D(u_framebuffer, tc);
+//}
+
+// Output the frame buffer texture offseted by the FX.
+%diffuse% = vec4(0,0,0,0);
+%constant% = final_buffer;
+	">
+>

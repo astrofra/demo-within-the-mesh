@@ -1,0 +1,58 @@
+<Version=1.0>
+<Shader=
+	<Input=
+		<Attribute=<Name="a_uv"><Semantic="UV0">>
+		<Attribute=<Name="a_position"><Semantic="Position">>
+		<Attribute=<Name="a_normal"><Semantic="Normal">>
+
+		<Uniform=<Name="u_mvp_matrix"><Semantic="ModelViewProjectionMatrix"><Scope=<Vertex>>>
+		<Uniform=<Name="t_tex0"><Semantic="MaterialTexture0">>
+		<Uniform=<Name="t_diff1"><Semantic="MaterialTexture1">>
+
+		<Uniform=<Name="u_framebuffer"><Semantic="FrameBuffer">>
+
+		<Uniform=<Name="u_ibs"><Semantic="InverseBufferSize"><Scope=<Pixel>>>
+		<Uniform=<Name="u_clock"><Semantic="Clock"><Scope=<Pixel>>>
+	>
+	<Varying=
+		<Variable=<Name="v_uv"><Type="vec2">>
+		<Variable=<Name="v_pos"><Type="vec3">>
+		<Variable=<Name="v_normal"><Type="vec3">>
+	>
+	<VertexSource="
+// Send the untransformed vertex position to the pixel shader so that it may determine the pixel position in the primitive.
+v_normal = a_normal;
+	">
+	<PixelSource="
+// This is a 1:1 screen space UV to perfectly map the frame buffer.
+vec2 uv = %in.fragcoord%.xy * u_ibs; // note: ideally the mul by u_ibs would be factored with o * u_ibs
+
+vec4 _crt_tex = texture2D(t_tex0, uv * vec2(0.1, 6.0) + v_normal.xx * 0.25);
+_crt_tex += texture2D(t_tex0, uv * vec2(16.0, 8.0) + v_normal.yy * 0.25);
+_crt_tex *= 0.45;
+
+float _scan = clamp(texture2D(t_tex0, uv * vec2(0, 3.0)).x + v_normal.xz - v_normal.xy * 0.5, 0.75, 1.0);
+
+v_uv += vec2(_crt_tex.x * 0.002, 0);
+
+vec4 t_diff = texture2D(t_diff1, uv); //v_uv * vec2(1.0, -1.0));
+
+float _alpha = clamp(5.0 * t_diff.x, 0.0, 1.0) * 0.65;
+
+vec2 _uv_o = uv + vec2(_alpha * 0.01, _alpha * 0.01);
+
+vec4 _fbuffer = texture2D(u_framebuffer, _uv_o); // * _base_fbuffer_colorization;
+
+t_diff = 6.0 * (_crt_tex * t_diff * vec4(0.1, 0.7, 1.0, 1.0) + (t_diff * t_diff * t_diff * t_diff) * vec4(0.5, 0.2, 0.1, 1.0));
+
+float flicker = sin(u_clock * 60.0) > 0.0?1.0:0.0;
+flicker += cos(u_clock * 120.0) > 0.5?1.0:0.0;
+flicker += cos(u_clock * 40.0 + 0.5) > 0.5?1.0:0.0;
+flicker = clamp(flicker, 0.75, 1.0);
+
+// Output the frame buffer texture offseted by the FX.
+%diffuse% = vec4(0,0,0,0);
+%opacity% = 1.0; //t_mask.x;
+%constant% =  mix(_fbuffer, t_diff * _scan, _alpha * flicker);
+	">
+>

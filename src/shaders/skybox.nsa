@@ -1,0 +1,96 @@
+<Version=1.0>
+<Shader=
+	<Input=
+		<Attribute=<Name="a_position"><Semantic="Position">>
+
+		<Uniform=<Name="u_sky"><Semantic="NormalMatrix">>
+		<Uniform=<Name="u_time_of_day"><Semantic="TimeOfDay">>
+		<Uniform=<Name="u_ratio"><Semantic="ViewportRatio"><Scope=<Vertex>>>
+
+		<Uniform=<Name="u_zoom_factor"><Semantic="ZoomFactor"><Scope=<Vertex>>>
+		
+		<Uniform=<Name="fog_color"><Semantic="FogColor">>
+		<Uniform=<Name="fog_near"><Semantic="FogNear">>
+		<Uniform=<Name="fog_far"><Semantic="FogFar">>
+		<Uniform=<Name="ambient_color"><Semantic="AmbientColor">>
+
+		<Uniform=<Name="u_layer0"><Semantic="Texture">>
+		<Uniform=<Name="u_layer1"><Semantic="Texture">>
+	>
+	<Varying=
+		<Variable=<Name="v_uv"><Type="vec2">>
+	>
+	<VertexSource=
+"
+float factor = 1.0 / u_zoom_factor;
+v_uv = (a_position.xy * vec2(factor, factor)) / u_ratio;
+%out.position% = vec4(a_position.xy, 1.0, 1.0);
+"
+	>
+	<PixelDeclaration=
+"
+vec2 GetProjectedUV(vec3 v)
+{
+	float r = sqrt(v.x * v.x + v.z * v.z);
+	
+	float lat = acos(clamp(v.x / r, -1.0, 1.0));
+	lat /= 3.1415926535 * 2.0;
+	if	(v.z > 0.0)
+		lat = 1.0 - lat;
+	
+	float lon = asin(v.y) / (3.1415926535 * 2.0) + 0.5;
+	lon = 1.0 - lon;
+	
+	return vec2(lat, lon);
+}
+"
+	>
+	<PixelSource=
+"
+vec3 v = vec3(v_uv, 1.0);
+v = n_mtx_mul(u_sky, normalize(v));
+vec4 final_sky_color;
+
+
+vec2 p_uv = GetProjectedUV(v);
+/*
+	Cloud
+*/
+vec4 cloud_tex = vec4(0,0,0,0);
+cloud_tex += texture2D(u_layer0, p_uv);
+cloud_tex += texture2D(u_layer0, p_uv + vec2(0.001, 0.001));
+cloud_tex += texture2D(u_layer0, p_uv + vec2(-0.001, 0.001));
+cloud_tex += texture2D(u_layer0, p_uv + vec2(-0.001, -0.001));
+cloud_tex += texture2D(u_layer0, p_uv + vec2(0.001, -0.001));
+cloud_tex *= 0.2;
+
+/*
+	Stars
+*/
+ p_uv *= vec2(8.0, 8.0);
+vec4 stars_tex = vec4(0,0,0,0);
+stars_tex += texture2D(u_layer1, p_uv);
+stars_tex += texture2D(u_layer1, p_uv + vec2(0.00025, 0.00025));
+stars_tex += texture2D(u_layer1, p_uv + vec2(-0.00025, 0.00025));
+stars_tex += texture2D(u_layer1, p_uv + vec2(-0.00025, -0.00025));
+stars_tex += texture2D(u_layer1, p_uv + vec2(0.00025, -0.00025));
+stars_tex *= 0.25;
+
+stars_tex += texture2D(u_layer1, p_uv);
+
+/*
+	Mix
+*/
+final_sky_color = cloud_tex + stars_tex;
+final_sky_color.w = 1.0;
+
+if (fog_far > 0.0 && fog_far < 50.0)
+{
+	float color_lerp = clamp(((fog_far - 10.0) / 40.0), 0.0, 1.0);
+	final_sky_color *= color_lerp;
+}
+
+%out.color% = final_sky_color;
+"
+	>
+>
