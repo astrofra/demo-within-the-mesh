@@ -173,9 +173,28 @@ class	SceneManager	extends	BaseScene
 		SceneSetFog(scene, false, Vector(0,0,0), 0, 0)
 		local	planet_item = ItemSetSelfIllumFloat(SceneFindItem(scene, "planet"), 0.0)
 
-		UISetCommandList(SceneGetUI(scene), "globalfade 0,1;globalfade 1.0,0;")
+		UISetCommandList(SceneGetUI(scene), "globalfade 0,1;globalfade 0.5,0.5;")
 
-		dispatch = WaitTilOutroFadeInIsDone
+		intro_handler.voice_over_hander.DisplaySub("End of transmission.")
+		local _sub_pos = SpriteGetPosition(intro_handler.voice_over_hander.subtitle_label.window)
+		SpriteSetPosition(intro_handler.voice_over_hander.subtitle_label.window, _sub_pos.x + 380.0, _sub_pos.y + 128.0)
+
+		dispatch = WaitTilOutroFadeInIsHalfDone
+	}
+
+	function	WaitTilOutroFadeInIsHalfDone(scene)
+	{
+		if (UIIsCommandListDone(SceneGetUI(scene)))
+		{
+			local signal_noise_sfx = MixerStartStream(g_mixer, "sfx/signal_noise_out.ogg")
+			MixerChannelSetGain(g_mixer, signal_noise_sfx, 1.0)
+			MixerChannelSetPitch(g_mixer, signal_noise_sfx, 1.0)
+			MixerChannelSetLoopMode(g_mixer, signal_noise_sfx, LoopNone)
+
+			UISetCommandList(SceneGetUI(scene), "globalfade 0,0.5;globalfade 0.5,0;")
+
+			dispatch = WaitTilOutroFadeInIsDone
+		}
 	}
 
 	function	WaitTilOutroFadeInIsDone(scene)

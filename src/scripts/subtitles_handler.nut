@@ -5,7 +5,7 @@
 
 Include("scripts/ui.nut")
 
-UILoadFont("ui/fonts/OpenSans-CondLight.ttf")
+UILoadFont("ui/fonts/FuturaLight.ttf")
 
 /*!
 	@short	VoiceOverHander
@@ -120,7 +120,7 @@ class	VoiceOverHandler
 		ui = SceneGetUI(scene)
 		subtitle_label = Label(ui, 1280, 256, 1280 * 0.5, 960 - (256 * 0.75), true, true)
 		subtitle_label.label_color = 0xffff00ff
-		subtitle_label.font = "OpenSans-CondLight"
+		subtitle_label.font = "FuturaLight"
 		subtitle_label.font_size = 80
 		subtitle_label.drop_shadow = true
 		subtitle_label.font_tracking = -1.0
