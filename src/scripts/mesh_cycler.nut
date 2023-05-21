@@ -39,6 +39,7 @@ class	MeshCycler	extends	BaseAnimator
 	racyast_dir			=	0
 
 	prev_mesh_idx		=	-1
+	prev_pos_y			=	0.0
 
 	opacity				=	0.0
 
@@ -137,8 +138,10 @@ class	MeshCycler	extends	BaseAnimator
 		_pos.z += (z_speed * local_clock * base_speed * base_scale) 
 		_pos.z += walk_steps[_mesh_idx] * base_scale
 		_pos.z += z_offset
+		_pos.y = prev_pos_y
 
-		_pos.y = last_ground_hit.y
+		if (_mesh_idx != prev_mesh_idx)
+			prev_pos_y = last_ground_hit.y
 
 		ItemSetPosition(item, _pos)
 

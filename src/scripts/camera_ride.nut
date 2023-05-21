@@ -44,6 +44,7 @@ class	CameraRideHandler
 	target_clock_offset		=	0.0
 
 	audio_channel_music		=	0
+	signal_noise_sfx_played = false
 
 	mouse_device			=	0
 	mx						=	0
@@ -377,6 +378,24 @@ class	CameraRideHandler
 		dispatch = CameraUpdate
 	}
 
+	function	UpdateSignalNoiseSFX()
+	{
+		if (signal_noise_sfx_played)
+			return
+
+		local	noise_len = Sec(21.5)
+		local	_clock = RangeAdjust(normalized_clock, 0.0, 1.0, clock_start, clock_end)
+
+		if (_clock > clock_end - noise_len)
+		{
+			local signal_noise_sfx = MixerStartStream(g_mixer, "sfx/signal_noise_in.ogg")
+			MixerChannelSetGain(g_mixer, signal_noise_sfx, 1.0)
+			MixerChannelSetPitch(g_mixer, signal_noise_sfx, 1.0)
+			MixerChannelSetLoopMode(g_mixer, signal_noise_sfx, LoopNone)
+			signal_noise_sfx_played = true
+		}
+	}
+
 	function	UpdateVideoFX()
 	{
 		local	_clock = RangeAdjust(normalized_clock, 0.0, 1.0, clock_start, clock_end)
@@ -404,6 +423,72 @@ class	CameraRideHandler
 			SceneItemActivate(scene, video_screen, false)
 		}
 	}
+
+	function	ChromaDispersionUpdate()
+	{
+		local	disp_amount	= 0.0
+
+		//	Chroma dispersion based
+		if (normalized_clock < 0.5)
+		{
+			local	_light_intensity = synchro_handler_beep.GetSynchroValueFromTime(normalized_clock)
+			_light_intensity = Clamp(_light_intensity, 0.0, 1.0) * 3.0
+			disp_amount = RangeAdjust(_light_intensity, 0.0, 1.0, 1.0, 5.0)
+		}
+		else
+			disp_amount = 1.0
+
+		local	_clock = RangeAdjust(normalized_clock, 0.0, 1.0, clock_start, clock_end)
+		local	_fx = 1.0
+		if (_clock >= video_fx_end_clock_start * 0.915)
+		{
+			_fx = Clamp(RangeAdjust(_clock, video_fx_end_clock_start * 0.915, video_fx_end_clock_end, 0.0, 1.0), 0.0, 1.0)
+			_fx = EaseInOutQuick(_fx) 
+			_fx = _fx * 5.0 + Rand(0, _fx * 3.5) + Rand(0, _fx * 2.5)
+		}
+
+		disp_amount	= Max(disp_amount, _fx)
+
+		ItemRegistrySetKey(item, "PostProcess:ChromDisp:Width", disp_amount)
+	}
+
+	function	VideoNoiseUpdate()
+	{
+		local	_clock = RangeAdjust(normalized_clock, 0.0, 1.0, clock_start, clock_end)
+		local	_fx
+
+		if (_clock <= video_fx_clock_end * 1.15)
+			_fx = Clamp(RangeAdjust(_clock, video_fx_clock_start, video_fx_clock_end * 1.15, 1.0, 0.0), 0.0, 1.0)
+		else
+		if (_clock >= video_fx_end_clock_start * 1.025)
+			_fx = Clamp(RangeAdjust(_clock, video_fx_end_clock_start * 1.025, video_fx_end_clock_end, 0.0, 1.0), 0.0, 1.0)
+		else
+			_fx = 0.0
+
+		_fx = EaseInOutQuick(_fx)
+
+		local noise_amount = RangeAdjust(_fx, 0.0, 1.0, 0.35, 0.85)
+		noise_amount += noise_amount * Rand(0, 0.1)
+
+		ItemRegistrySetKey(item, "PostProcess:Noise:Strength", noise_amount)
+	}
+
+	function	RadialBlurUpdate()
+	{
+		local	_clock = RangeAdjust(normalized_clock, 0.0, 1.0, clock_start, clock_end)
+		local	_fx
+
+		if (_clock >= video_fx_end_clock_start * 0.98)
+			_fx = Clamp(RangeAdjust(_clock, video_fx_end_clock_start * 0.98, video_fx_end_clock_end, 0.0, 1.0), 0.0, 1.0)
+		else
+			_fx = 0.0
+
+		_fx *= _fx // EaseInOutQuick(_fx)
+
+		local blur_amount = RangeAdjust(_fx, 0.0, 1.0, 0.0, 0.5)
+
+		ItemRegistrySetKey(item, "PostProcess:RadialBlur:Strength", blur_amount)
+	}
 	
 
 	/*
@@ -414,15 +499,16 @@ class	CameraRideHandler
 		UpdateInput()
 
 		UpdateVideoFX()
-
-		local	_light_intensity = synchro_handler_beep.GetSynchroValueFromTime(normalized_clock)
-		_light_intensity = Clamp(_light_intensity, 0.0, 1.0) * 3.0
+		ChromaDispersionUpdate()
+		VideoNoiseUpdate()
+		UpdateSignalNoiseSFX()
+		RadialBlurUpdate()
 		
 		//	Synchro issue ugly patch.
-		if (normalized_clock < 0.5)
-			ItemRegistrySetKey(item, "PostProcess:ChromDisp:Width", RangeAdjust(_light_intensity, 0.0, 1.0, 1.0, 5.0))
-		else
-			ItemRegistrySetKey(item, "PostProcess:ChromDisp:Width", 1.0)		
+		// if (normalized_clock < 0.5)
+		// 	ItemRegistrySetKey(item, "PostProcess:ChromDisp:Width", RangeAdjust(_light_intensity, 0.0, 1.0, 1.0, 5.0))
+		// else
+		// 	ItemRegistrySetKey(item, "PostProcess:ChromDisp:Width", 1.0)		
 /*
 		local	_light = ItemCastToLight(SceneFindItem(scene, "beep_light"))
 		LightSetDiffuseIntensity(_light, _light_intensity)
@@ -431,9 +517,38 @@ class	CameraRideHandler
 
 		local	_interpolated_key = GetInterpolatedPosition(normalized_clock)
 
+		local 	_cam_matrix = ItemGetMatrix(item)
+		local	_front_vec = _cam_matrix.GetUp()
+
+		local	_clock = RangeAdjust(normalized_clock, 0.0, 1.0, clock_start, clock_end)
+		local	_fx = 0.0
+		if (_clock >= video_fx_end_clock_start * 0.95)
+		{
+			_fx = Clamp(RangeAdjust(_clock, video_fx_end_clock_start * 0.95, video_fx_end_clock_end, 0.0, 1.0), 0.0, 1.0)
+			_fx = EaseInOutQuick(_fx)
+			_fx = _fx * 0.25 /* + Rand(_fx * -0.25, _fx * 0.25)*/  + Rand(_fx * -0.125, _fx * 0.125) + Rand(_fx * -0.05, _fx * 0.05)
+			_fx *= Clamp(RangeAdjust(_clock, video_fx_end_clock_start * 0.95, video_fx_end_clock_end, 0.5, 1.0), 0.5, 1.0)
+
+			if (Rand(0.0, 100.0) > 40.0)
+				_fx *= 0.5
+			if (Rand(0.0, 100.0) > 60.0)
+				_fx *= 0.5
+			if (Rand(0.0, 100.0) > 20.0)
+				_fx *= 0.95
+			if (Rand(0.0, 100.0) > 10.0)
+				_fx *= 0.25
+			if (Rand(0.0, 100.0) > 80.0)
+				_fx *= 0.1
+			if (Rand(0.0, 100.0) > 5.0)
+				_fx *= 0.1		
+		}
+
 		camera_current_pos = _interpolated_key.position
-		ItemSetPosition(item, camera_current_pos)
+		ItemSetPosition(item, camera_current_pos + _front_vec.Scale(_fx))
 		ItemSetRotation(item, _interpolated_key.rotation + rotation_offset)
+
+		// local cam_fov = Clamp(RangeAdjust(_clock, video_fx_end_clock_start, video_fx_end_clock_end, 50.0, 60.0), 50.0, 60.0)
+		// CameraSetFov(ItemCastToCamera(item), DegreeToRadian(cam_fov))
 	}
 
 }

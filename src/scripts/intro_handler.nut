@@ -30,7 +30,7 @@ g_intro_fades	<-	[	{cam_key	= "logo_render_camera",			fade_in = 0.0,	fade_out = 
 						{group_key	= "logo_group",					fade_in = 0.0,	fade_out = 3.5		},
 						{group_key	= "planet_group",				fade_in = 3.5,	fade_out = 25.0 + 2.0		},
 
-						{sfx_key	= "sfx/intro_buzzing_sound_long.ogg", volume = 0.25, fade_in = 3.0, fade_out = 29.0	},
+						{sfx_key	= "sfx/intro_buzzing_sound_long.ogg", volume = 0.25, fade_in = 3.0, fade_out = 28.0	},
 
 						{global_fade_key	= null,					fade_in = 29.0, fade_out = 30.0	},
 

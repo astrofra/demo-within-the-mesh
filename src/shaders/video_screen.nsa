@@ -28,6 +28,8 @@ vec2 uv = %in.fragcoord%.xy * u_ibs;
 
 //	Scanline creation
 
+u_diffuse_color.x = clamp(u_diffuse_color.x, 0.0, 0.99);
+
 float	scanline = 1.0 - u_diffuse_color.x;
 
 //	spherical uv offset
